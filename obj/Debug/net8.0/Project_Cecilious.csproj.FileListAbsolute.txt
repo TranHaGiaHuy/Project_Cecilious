@@ -251,3 +251,4 @@ D:\SU24\PRN221\Project_Cecilious\obj\Debug\net8.0\Project_Cecilious.genruntimeco
 D:\SU24\PRN221\Project_Cecilious\obj\Debug\net8.0\ref\Project_Cecilious.dll
 D:\SU24\PRN221\Project_Cecilious\bin\Debug\net8.0\dotnet-aspnet-codegenerator-design.dll
 D:\SU24\PRN221\Project_Cecilious\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\SU24\PRN221\Project_Cecilious\obj\Debug\net8.0\Project_Cecilious.sourcelink.json

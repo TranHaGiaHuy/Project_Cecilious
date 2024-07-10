@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\SU24\\PRN221\\Project_Cecilious\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{62872798-CBA8-402A-A583-FF07B6B83AC4}|Project_Cecilious.csproj|D:\\SU24\\PRN221\\Project_Cecilious\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{62872798-CBA8-402A-A583-FF07B6B83AC4}|Project_Cecilious.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{62872798-CBA8-402A-A583-FF07B6B83AC4}|Project_Cecilious.csproj|d:\\su24\\prn221\\project_cecilious\\pages\\views\\dishes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{62872798-CBA8-402A-A583-FF07B6B83AC4}|Project_Cecilious.csproj|solutionrelative:pages\\views\\dishes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -83,10 +87,6 @@
       "RelativeMoniker": "D:0:0:{62872798-CBA8-402A-A583-FF07B6B83AC4}|Project_Cecilious.csproj|solutionrelative:model\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62872798-CBA8-402A-A583-FF07B6B83AC4}|Project_Cecilious.csproj|D:\\SU24\\PRN221\\Project_Cecilious\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{62872798-CBA8-402A-A583-FF07B6B83AC4}|Project_Cecilious.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{62872798-CBA8-402A-A583-FF07B6B83AC4}|Project_Cecilious.csproj|D:\\SU24\\PRN221\\Project_Cecilious\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62872798-CBA8-402A-A583-FF07B6B83AC4}|Project_Cecilious.csproj|solutionrelative:model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -101,7 +101,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Bookmark",
@@ -141,32 +141,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Cecilious\\Pages\\Views\\Dishes\\Index.cshtml",
               "RelativeDocumentMoniker": "Pages\\Views\\Dishes\\Index.cshtml",
               "ToolTip": "D:\\SU24\\PRN221\\Project_Cecilious\\Pages\\Views\\Dishes\\Index.cshtml",
               "RelativeToolTip": "Pages\\Views\\Dishes\\Index.cshtml",
-              "ViewState": "AQIAACkAAAAAAAAAAAAIwEIAAAA0AAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAADwv0IAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-10T01:08:12.164Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CeciliousContext.cs",
-              "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Cecilious\\Data\\CeciliousContext.cs",
-              "RelativeDocumentMoniker": "Data\\CeciliousContext.cs",
-              "ToolTip": "D:\\SU24\\PRN221\\Project_Cecilious\\Data\\CeciliousContext.cs",
-              "RelativeToolTip": "Data\\CeciliousContext.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAwwA0AAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T17:51:28.007Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "RestaurantCategory.cs",
               "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Cecilious\\Model\\RestaurantCategory.cs",
               "RelativeDocumentMoniker": "Model\\RestaurantCategory.cs",
@@ -178,7 +166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "RestaurantAddress.cs",
               "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Cecilious\\Model\\RestaurantAddress.cs",
               "RelativeDocumentMoniker": "Model\\RestaurantAddress.cs",
@@ -190,7 +178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Review.cs",
               "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Cecilious\\Model\\Review.cs",
               "RelativeDocumentMoniker": "Model\\Review.cs",
@@ -202,7 +190,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Dish.cs",
               "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Cecilious\\Model\\Dish.cs",
               "RelativeDocumentMoniker": "Model\\Dish.cs",
@@ -214,7 +202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Project_Cecilious.csproj",
               "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Cecilious\\Project_Cecilious.csproj",
               "RelativeDocumentMoniker": "Project_Cecilious.csproj",
@@ -226,7 +214,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Cecilious\\Pages\\Views\\Dishes\\Delete.cshtml",
               "RelativeDocumentMoniker": "Pages\\Views\\Dishes\\Delete.cshtml",
@@ -238,7 +226,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Cecilious\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\SU24\\PRN221\\Project_Cecilious\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-09T18:13:37.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CeciliousContext.cs",
+              "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Cecilious\\Data\\CeciliousContext.cs",
+              "RelativeDocumentMoniker": "Data\\CeciliousContext.cs",
+              "ToolTip": "D:\\SU24\\PRN221\\Project_Cecilious\\Data\\CeciliousContext.cs",
+              "RelativeToolTip": "Data\\CeciliousContext.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAwwA0AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T17:51:28.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Cecilious\\Pages\\Views\\Dishes\\Details.cshtml",
               "RelativeDocumentMoniker": "Pages\\Views\\Dishes\\Details.cshtml",
@@ -250,7 +263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Cecilious\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -262,7 +275,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Cecilious\\Pages\\Views\\Dishes\\Create.cshtml",
               "RelativeDocumentMoniker": "Pages\\Views\\Dishes\\Create.cshtml",
@@ -274,7 +287,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Cecilious\\Pages\\Views\\Dishes\\Edit.cshtml",
               "RelativeDocumentMoniker": "Pages\\Views\\Dishes\\Edit.cshtml",
@@ -286,7 +299,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Delete.cshtml.cs",
               "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Cecilious\\Pages\\Views\\Dishes\\Delete.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Views\\Dishes\\Delete.cshtml.cs",
@@ -298,7 +311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Details.cshtml.cs",
               "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Cecilious\\Pages\\Views\\Dishes\\Details.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Views\\Dishes\\Details.cshtml.cs",
@@ -310,7 +323,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Edit.cshtml.cs",
               "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Cecilious\\Pages\\Views\\Dishes\\Edit.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Views\\Dishes\\Edit.cshtml.cs",
@@ -322,7 +335,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Create.cshtml.cs",
               "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Cecilious\\Pages\\Views\\Dishes\\Create.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Views\\Dishes\\Create.cshtml.cs",
@@ -334,7 +347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "DishCategory.cs",
               "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Cecilious\\Model\\DishCategory.cs",
               "RelativeDocumentMoniker": "Model\\DishCategory.cs",
@@ -347,18 +360,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Cecilious\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\SU24\\PRN221\\Project_Cecilious\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-09T18:13:37.443Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
               "Title": "Account.cs",
               "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Cecilious\\Model\\Account.cs",
               "RelativeDocumentMoniker": "Model\\Account.cs",
@@ -370,7 +371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "DbInitializer.cs",
               "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Cecilious\\Data\\DbInitializer.cs",
               "RelativeDocumentMoniker": "Data\\DbInitializer.cs",
@@ -382,7 +383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Restaurant.cs",
               "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Cecilious\\Model\\Restaurant.cs",
               "RelativeDocumentMoniker": "Model\\Restaurant.cs",
