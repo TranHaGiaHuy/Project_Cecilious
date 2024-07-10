@@ -17,6 +17,7 @@ namespace Project_Cecilious.Model
 
         public int RestaurantAddressId { get; set; }
 
+        
        
         public string RestaurantName { get; set; } = null!;
 

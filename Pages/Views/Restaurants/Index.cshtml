@@ -1,0 +1,530 @@
+﻿@page
+@model Project_Cecilious.Pages.Views.Restaurants.IndexModel
+
+@{
+    ViewData["Title"] = "Index Restaurant";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+	<!--banner start-->
+	<section class="block-preview">
+		<div class="cover-banner" style="background-image: url(~/images/homepage/banner.jpg)"></div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-md-6 col-sm-12">
+					<div class="left-text-b">
+						<h1 class="title">Choose, Order and Checkout</h1>
+						<h6 class="exeption">Specify your address to suggest you the fast delivery</h6>
+						<p>Get our services from 24 hours.</p>
+						<a class="bnr-btn btn-link" href="#">Go To Meal</a>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+					<form>
+						<div class="form-box">
+							<div class="input-group-prepend">
+								<div class="input-group-text"><i class="fas fa-map-marker-alt"></i></div>
+							</div>
+							<input class="find-address skills" name="search" type="text" placeholder="Choose your location" />
+							<div class="input-group-prepend">
+								<div class="input-group-text-1"><i class="fas fa-utensils"></i></div>
+							</div>
+							<input class="find-resto skills" name="search" type="text" placeholder="Choose restaurant" />
+							<button class="search-btn btn-link" type="button">Find Food</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--banner end-->
+	<!--browse-places start-->
+	<section class="browse-places">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="browse-heading">
+						<h6> Browse Places </h6>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12 col-md-12">
+					<div class="owl-carousel browse-owl owl-theme">
+						<div class="item">
+							<div class="places">
+								<a href="places_nearby.html">
+									<div class="b-icon">
+										<img src="~/images/homepage/browse_places/01.svg" alt="">
+
+									</div>
+									<div class="b-text">
+										Near by
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="item">
+							<div class="places">
+								<a href="places_cafes.html">
+									<div class="b-icon">
+										<img src="~/images/homepage/browse_places/02.svg" alt="">
+									</div>
+									<div class="b-text">
+										Cafes & More
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="item">
+							<div class="places">
+								<a href="places_cafes.html">
+									<div class="b-icon">
+										<img src="~/images/homepage/browse_places/03.svg" alt="">
+									</div>
+									<div class="b-text">
+										Drinks & Nightkise
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="item">
+							<div class="places">
+								<a href="places_cafes.html">
+									<div class="b-icon">
+										<img src="~/images/homepage/browse_places/04.svg" alt="">
+									</div>
+									<div class="b-text">
+										Desserts & Bakes
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="item">
+							<div class="places">
+								<a href="upcoming_events.html">
+									<div class="b-icon">
+										<img src="~/images/homepage/browse_places/05.svg" alt="">
+									</div>
+									<div class="b-text">
+										Upcoming Events
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="item">
+							<div class="places">
+								<a href="places_cafes.html">
+									<div class="b-icon">
+										<img src="~/images/homepage/browse_places/06.svg" alt="">
+									</div>
+									<div class="b-text">
+										Newly Opened
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--browse-places end-->
+	<!--order-food-online-in-your-area start-->
+	<section class="order-food-online">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="new-heading">
+						<h1> Order Food Online In Your Area </h1>
+					</div>
+					<div class="your-location">
+						<span><i class="fas fa-map-marker-alt"></i>New York</span>Change Location
+					</div>
+					<div class="all-items">
+						<div class="search col-lg-4 col-md-6 col-sm-12 col-xs-12">
+							<form>
+								<input class="search-location" name="search" type="search" placeholder="Enter Your Location" />
+								<div class="icon-btn">
+									<div class="cross-icon">
+										<i class="fas fa-crosshairs"></i>
+									</div>
+									<div class="s-m-btn">
+										<button class="search-meal-btn btn-link">Search</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				@*First Item ===============================================================================================================*@
+				<div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+					<div class="all-meal">
+						<div class="top">
+							<a href="meal_detail.html"><div class="bg-gradient"></div></a>
+							<div class="top-img">
+								<img src="images/homepage/meals/img-1.jpg" alt="">
+							</div>
+							<div class="logo-img">
+								<img src="images/homepage/meals/logo-1.jpg" alt="">
+							</div>
+							<div class="top-text bg-info">
+								<div class="heading"><h4><a href="meal_detail.html">Bonn Burgur</a></h4></div>
+								<div class="sub-heading">
+									<h5><a href="restaurant_detail.html">Rooster</a></h5>
+									<p>$5.00</p>
+								</div>
+							</div>
+						</div>
+						<div class="bottom">
+							<div class="bottom-text">
+								<div class="delivery"><i class="fas fa-shopping-cart"></i>Delivery Free : Free</div>
+								<div class="time"><i class="far fa-clock"></i>Delivery Time : 30 Min</div>
+								<div class="star">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<span>4.5</span>
+									<div class="comments"><a href="#"><i class="fas fa-comment-alt"></i>05</a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				@*Second Item ===============================================================================================================*@
+				<div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+					<div class="all-meal">
+						<div class="top">
+							<a href="meal_detail.html"><div class="bg-gradient"></div></a>
+							<div class="top-img">
+								<img src="images/homepage/meals/img-2.jpg" alt="">
+							</div>
+							<div class="logo-img">
+								<img src="images/homepage/meals/logo-2.jpg" alt="">
+							</div>
+							<div class="top-text">
+								<div class="heading"><h4><a href="meal_detail.html">Two Burgurs</a></h4></div>
+								<div class="sub-heading">
+									<h5><a href="restaurant_detail.html">Chef House</a></h5>
+									<p>$5.00</p>
+								</div>
+							</div>
+						</div>
+						<div class="bottom">
+							<div class="bottom-text">
+								<div class="delivery"><i class="fas fa-shopping-cart"></i>Delivery Free : Free</div>
+								<div class="time"><i class="far fa-clock"></i>Delivery Time : 30 Min</div>
+								<div class="star">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<span>4.5</span>
+									<div class="comments"><a href="#"><i class="fas fa-comment-alt"></i>05</a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+					<div class="all-meal">
+						<div class="top">
+							<a href="meal_detail.html"><div class="bg-gradient"></div></a>
+							<div class="top-img">
+								<img src="images/homepage/meals/img-3.jpg" alt="">
+							</div>
+							<div class="logo-img">
+								<img src="images/homepage/meals/logo-3.jpg" alt="">
+							</div>
+							<div class="top-text">
+								<div class="heading"><h4><a href="meal_detail.html">Large Cheese Pizza...</a></h4></div>
+								<div class="sub-heading">
+									<h5><a href="restaurant_detail.html">Limon Resto</a></h5>
+									<p>$12.00</p>
+								</div>
+							</div>
+						</div>
+						<div class="bottom">
+							<div class="bottom-text">
+								<div class="delivery"><i class="fas fa-shopping-cart"></i>Delivery Free : Free</div>
+								<div class="time"><i class="far fa-clock"></i>Delivery Time : 30 Min</div>
+								<div class="star">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<span>4.5</span>
+									<div class="comments"><a href="#"><i class="fas fa-comment-alt"></i>05</a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+					<div class="all-meal">
+						<div class="top">
+							<a href="meal_detail.html"><div class="bg-gradient"></div></a>
+							<div class="top-img">
+								<img src="images/homepage/meals/img-4.jpg" alt="">
+							</div>
+							<div class="logo-img">
+								<img src="images/homepage/meals/logo-4.jpg" alt="">
+							</div>
+							<div class="top-text">
+								<div class="heading"><h4><a href="meal_detail.html">Hakka Noodles</a></h4></div>
+								<div class="sub-heading">
+									<h5><a href="restaurant_detail.html">Ledbery</a></h5>
+									<p>$5.00</p>
+								</div>
+							</div>
+						</div>
+						<div class="bottom">
+							<div class="bottom-text">
+								<div class="delivery"><i class="fas fa-shopping-cart"></i>Delivery Free : Free</div>
+								<div class="time"><i class="far fa-clock"></i>Delivery Time : 30 Min</div>
+								<div class="star">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<span>4.5</span>
+									<div class="comments"><a href="#"><i class="fas fa-comment-alt"></i>05</a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+					<div class="all-meal">
+						<div class="top">
+							<a href="meal_detail.html"><div class="bg-gradient"></div></a>
+							<div class="top-img">
+								<img src="images/homepage/meals/img-5.jpg" alt="">
+							</div>
+							<div class="logo-img">
+								<img src="images/homepage/meals/logo-5.jpg" alt="">
+							</div>
+							<div class="top-text">
+								<div class="heading"><h4><a href="meal_detail.html">Cappuccino Coffee</a></h4></div>
+								<div class="sub-heading">
+									<h5><a href="restaurant_detail.html">Organice cafe</a></h5>
+									<p>$5.00</p>
+								</div>
+							</div>
+						</div>
+						<div class="bottom">
+							<div class="bottom-text">
+								<div class="delivery"><i class="fas fa-shopping-cart"></i>Delivery Free : Free</div>
+								<div class="time"><i class="far fa-clock"></i>Delivery Time : 30 Min</div>
+								<div class="star">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<span>4.5</span>
+									<div class="comments"><a href="#"><i class="fas fa-comment-alt"></i>05</a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+					<div class="all-meal">
+						<div class="top">
+							<a href="meal_detail.html"><div class="bg-gradient"></div></a>
+							<div class="top-img">
+								<img src="images/homepage/meals/img-6.jpg" alt="">
+							</div>
+							<div class="logo-img">
+								<img src="images/homepage/meals/logo-6.jpg" alt="">
+							</div>
+							<div class="top-text">
+								<div class="heading"><h4><a href="meal_detail.html">Choclate Cake</a></h4></div>
+								<div class="sub-heading">
+									<h5><a href="restaurant_detail.html">Chef House</a></h5>
+									<p>$8.00</p>
+								</div>
+							</div>
+						</div>
+						<div class="bottom">
+							<div class="bottom-text">
+								<div class="delivery"><i class="fas fa-shopping-cart"></i>Delivery Free : Free</div>
+								<div class="time"><i class="far fa-clock"></i>Delivery Time : 30 Min</div>
+								<div class="star">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<span>4.5</span>
+									<div class="comments"><a href="#"><i class="fas fa-comment-alt"></i>05</a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+					<div class="all-meal">
+						<div class="top">
+							<a href="meal_detail.html"><div class="bg-gradient"></div></a>
+							<div class="top-img">
+								<img src="images/homepage/meals/img-7.jpg" alt="">
+							</div>
+							<div class="logo-img">
+								<img src="images/homepage/meals/logo-7.jpg" alt="">
+							</div>
+							<div class="top-text">
+								<div class="heading"><h4><a href="meal_detail.html"> Indian Dosa </a></h4></div>
+								<div class="sub-heading">
+									<h5><a href="restaurant_detail.html">Indian Resto</a></h5>
+									<p>$10.00</p>
+								</div>
+							</div>
+						</div>
+						<div class="bottom">
+							<div class="bottom-text">
+								<div class="delivery"><i class="fas fa-shopping-cart"></i>Delivery Free : Free</div>
+								<div class="time"><i class="far fa-clock"></i>Delivery Time : 30 Min</div>
+								<div class="star">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<span>4.5</span>
+									<div class="comments"><a href="#"><i class="fas fa-comment-alt"></i>05</a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+					<div class="all-meal">
+						<div class="top">
+							<a href="meal_detail.html"><div class="bg-gradient"></div></a>
+							<div class="top-img">
+								<img src="images/homepage/meals/img-8.jpg" alt="">
+							</div>
+							<div class="logo-img">
+								<img src="images/homepage/meals/logo-8.jpg" alt="">
+							</div>
+							<div class="top-text">
+								<div class="heading"><h4><a href="meal_detail.html">Double Tikki Burgur</a></h4></div>
+								<div class="sub-heading">
+									<h5><a href="restaurant_detail.html">Rooster</a></h5>
+									<p>$5.00</p>
+								</div>
+							</div>
+						</div>
+						<div class="bottom">
+							<div class="bottom-text">
+								<div class="delivery"><i class="fas fa-shopping-cart"></i>Delivery Free : Free</div>
+								<div class="time"><i class="far fa-clock"></i>Delivery Time : 30 Min</div>
+								<div class="star">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<span>4.5</span>
+									<div class="comments"><a href="#"><i class="fas fa-comment-alt"></i>05</a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="meal-btn">
+				<a href="#" class="m-btn btn-link">Show All</a>
+			</div>
+		</div>
+	</section>
+	<!--order-food-online-in-your-area end-->
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Restaurant[0].RestaurantName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Restaurant[0].Phone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Restaurant[0].Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Restaurant[0].StartTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Restaurant[0].EndTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Restaurant[0].RestaurantAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Restaurant[0].RestaurantCategory)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Restaurant) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.RestaurantName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Phone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StartTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EndTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RestaurantAddress.RestaurantAddressId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RestaurantCategory.RestaurantCategoryId)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.RestaurantId">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.RestaurantId">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.RestaurantId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

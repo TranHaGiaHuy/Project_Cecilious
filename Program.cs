@@ -31,7 +31,7 @@ app.UseStaticFiles();
 
 app.MapGet("/", async context =>
 {
-    context.Response.Redirect("/Views/Dishes/Index");
+    context.Response.Redirect("/Index");
 });
 app.UseRouting();
 
