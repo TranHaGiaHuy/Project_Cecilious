@@ -271,7 +271,7 @@
 												<a class="hoverCata" href="" data-toggle="tab" class="active">
 													<div class="meal-tab-icons">
 														<img src="/images/homepage/quick-searches/meal-2.svg" class="img-responsive" alt="">
-													<p> @cate.Name </p>
+													<p>@cate.Name</p>
 													</div>
 												</a>
 											</li>
@@ -286,7 +286,6 @@
 													@foreach (var item in Model.Dishes)
 													{
 													<li data-category="" data-price="" class="col-md-6 pm-right">
-														<strong class="">@item.DishCategory.Name</strong>
 															<div class="meals-dt">
 																<div class="meal-list">
 																	<ul class="list-unstyled">
@@ -299,8 +298,9 @@
 																					<i class="fas fa-star"></i>
 																					<i class="fas fa-star"></i>
 																					<i class="fas fa-star"></i>
-																					<i class="far fa-star"></i>								
-																					<span>4.5</span> 																				
+																					<i class="far fa-star"></i>
+																				<strong class="font-weight-light">@item.DishCategory.Name</strong>
+																				<span>4.5</span> 																				
 																				</div>
 																				<p>@item.Price</p>
 																			</div>

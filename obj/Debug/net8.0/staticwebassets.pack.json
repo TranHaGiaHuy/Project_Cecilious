@@ -1077,6 +1077,10 @@
       "PackagePath": "staticwebassets\\js\\bootstrap-select.js"
     },
     {
+      "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\js\\category.js",
+      "PackagePath": "staticwebassets\\js\\category.js"
+    },
+    {
       "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\js\\custom.js",
       "PackagePath": "staticwebassets\\js\\custom.js"
     },

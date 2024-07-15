@@ -4634,9 +4634,12 @@ and something more appropriate for display headings */
     margin-top: -5px;
 }
 
-.order-tabs .nav-tabs > li a:hover .meal-tab-icons, .order-tabs .nav-tabs > li a.active .meal-tab-icons {
+.order-tabs .nav-tabs > li a:hover .meal-tab-icons,
+.order-tabs .nav-tabs > li a.active .meal-tab-icons,
+.order-tabs .nav-tabs > li button:hover .meal-tab-icons,
+.order-tabs .nav-tabs > li button:active .meal-tab-icons {
     background: #ffa803;
-    color:#fff;
+    color: #fff;
 }
 
 .all-meals-tab h6 {
