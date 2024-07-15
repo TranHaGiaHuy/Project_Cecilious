@@ -53,10 +53,6 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\css\\style.css",
-      "PackagePath": "staticwebassets\\css\\style.css"
-    },
-    {
       "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\css\\thumbnail.slider.css",
       "PackagePath": "staticwebassets\\css\\thumbnail.slider.css"
     },
@@ -1091,6 +1087,10 @@
     {
       "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\js\\owlslider.js",
       "PackagePath": "staticwebassets\\js\\owlslider.js"
+    },
+    {
+      "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\js\\pagination.js",
+      "PackagePath": "staticwebassets\\js\\pagination.js"
     },
     {
       "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\js\\recipeowlslider.js",

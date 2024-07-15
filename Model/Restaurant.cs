@@ -9,16 +9,8 @@ namespace Project_Cecilious.Model
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int RestaurantId { get; set; }
 
-        [ForeignKey("RestaurantCategory")]
-
-        public int? RestaurantCategoryId { get; set; }
-
-        [ForeignKey("RestaurantAddress")]
-
-        public int RestaurantAddressId { get; set; }
-
         
-       
+        
         public string RestaurantName { get; set; } = null!;
 
         public string Phone { get; set; } = null!;
@@ -29,10 +21,22 @@ namespace Project_Cecilious.Model
 
         public TimeOnly EndTime { get; set; }
 
-        public virtual ICollection<Dish> Dishes { get; set; } = new List<Dish>();
+		public string Logo { get; set; } = null!;
 
+		public string Background { get; set; } = null!;
 
-        public virtual RestaurantAddress RestaurantAddress { get; set; } = null!;
+		[ForeignKey("RestaurantCategory")]
+
+		public int? RestaurantCategoryId { get; set; }
+
+		[ForeignKey("RestaurantAddress")]
+
+		public int RestaurantAddressId { get; set; }
+		public virtual ICollection<Dish> Dishes { get; set; } = new List<Dish>();
+
+		public virtual ICollection<Review> Review { get; set; } = new List<Review>();
+
+		public virtual RestaurantAddress RestaurantAddress { get; set; } = null!;
 
 
         public virtual RestaurantCategory? RestaurantCategory { get; set; }

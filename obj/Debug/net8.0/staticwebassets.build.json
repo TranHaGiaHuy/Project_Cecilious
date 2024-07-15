@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OVlKvUPM2SCQ4MpRYCBNK1dvjJ2upPjo3xyHj1/SISA=",
+  "Hash": "MZSPH0YxUfRTiK53Jj1NlTXkjYz8uxVX8Q4iFLSgiuQ=",
   "Source": "Project_Cecilious",
   "BasePath": "_content/Project_Cecilious",
   "Mode": "Default",
@@ -281,25 +281,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
-    },
-    {
-      "Identity": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\css\\style.css",
-      "SourceId": "Project_Cecilious",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\",
-      "BasePath": "_content/Project_Cecilious",
-      "RelativePath": "css/style.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
       "Identity": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\css\\thumbnail.slider.css",
@@ -5221,6 +5202,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\owlslider.js"
+    },
+    {
+      "Identity": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\js\\pagination.js",
+      "SourceId": "Project_Cecilious",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\",
+      "BasePath": "_content/Project_Cecilious",
+      "RelativePath": "js/pagination.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\pagination.js"
     },
     {
       "Identity": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\js\\recipeowlslider.js",

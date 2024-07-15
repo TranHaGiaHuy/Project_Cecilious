@@ -46,11 +46,11 @@ namespace Project_Cecilious.Data
              
             var restaurants = new Restaurant[]
                 {
-                     new Restaurant { RestaurantId = 1, RestaurantAddressId = 1, RestaurantName = "Nha Hang Sanh Loc", Phone = "0572857285", Description = "Quan an ngon", StartTime = new TimeOnly(10, 0), EndTime = new TimeOnly(20, 0), RestaurantCategoryId = 2 },
-                     new Restaurant { RestaurantId = 2, RestaurantAddressId = 2, RestaurantName = "Ga Ran Five Start", Phone = "0576938761", Description = "crunch", StartTime = new TimeOnly(11, 0), EndTime = new TimeOnly(21, 0), RestaurantCategoryId = 1 },
-                     new Restaurant { RestaurantId = 3, RestaurantAddressId = 3, RestaurantName = "Domino Pizza", Phone = "0395684691", Description = "Banh pizza", StartTime = new TimeOnly(9, 0), EndTime = new TimeOnly(22, 0), RestaurantCategoryId = 4 },
-                     new Restaurant { RestaurantId = 4, RestaurantAddressId = 4, RestaurantName = "Chu Lun", Phone = "0923487318", Description = "Com me nau", StartTime = new TimeOnly(10, 0), EndTime = new TimeOnly(23, 0), RestaurantCategoryId = 3 },
-                     new Restaurant { RestaurantId = 5, RestaurantAddressId = 5, RestaurantName = "Com Nong", Phone = "0924783451", Description = "Com bo nau", StartTime = new TimeOnly(6, 0), EndTime = new TimeOnly(22, 0), RestaurantCategoryId = 1 }
+                     new Restaurant { RestaurantId = 1,Logo="/images/homepage/meals/logo-1.jpg",Background="/images/homepage/meals/img-1.jpg", RestaurantAddressId = 1, RestaurantName = "Nha Hang Sanh Loc", Phone = "0572857285", Description = "Quan an ngon", StartTime = new TimeOnly(10, 0), EndTime = new TimeOnly(20, 0), RestaurantCategoryId = 2 },
+                     new Restaurant { RestaurantId = 2,Logo="/images/homepage/meals/logo-2.jpg",Background="/images/homepage/meals/img-2.jpg", RestaurantAddressId = 2, RestaurantName = "Ga Ran Five Start", Phone = "0576938761", Description = "crunch", StartTime = new TimeOnly(11, 0), EndTime = new TimeOnly(21, 0), RestaurantCategoryId = 1 },
+                     new Restaurant { RestaurantId = 3,Logo="/images/homepage/meals/logo-3.jpg",Background="/images/homepage/meals/img-3.jpg", RestaurantAddressId = 3, RestaurantName = "Domino Pizza", Phone = "0395684691", Description = "Banh pizza", StartTime = new TimeOnly(9, 0), EndTime = new TimeOnly(22, 0), RestaurantCategoryId = 4 },
+                     new Restaurant { RestaurantId = 4,Logo="/images/homepage/meals/logo-4.jpg",Background="/images/homepage/meals/img-4.jpg", RestaurantAddressId = 4, RestaurantName = "Chu Lun", Phone = "0923487318", Description = "Com me nau", StartTime = new TimeOnly(10, 0), EndTime = new TimeOnly(23, 0), RestaurantCategoryId = 3 },
+                     new Restaurant { RestaurantId = 5,Logo="/images/homepage/meals/logo-5.jpg",Background="/images/homepage/meals/img-5.jpg", RestaurantAddressId = 5, RestaurantName = "Com Nong", Phone = "0924783451", Description = "Com bo nau", StartTime = new TimeOnly(6, 0), EndTime = new TimeOnly(22, 0), RestaurantCategoryId = 1 }
                 };
 
             context.Restaurants.AddRange(restaurants);

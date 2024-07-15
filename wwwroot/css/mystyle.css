@@ -852,6 +852,33 @@ and something more appropriate for display headings */
     text-decoration: none;
 }
 
+
+
+.listPage {
+    padding: 10px;
+    text-align: center;
+    list-style: none;
+}
+
+    .listPage li {
+        background-color: #ffffffBD;
+        padding: 20px;
+        display: inline-block;
+        margin: 0 10px;
+        cursor: pointer;
+    }
+
+    .listPage .active {
+        background-color: #ffa803;
+        color: #fff;
+    }
+
+
+
+
+
+
+
 /*** Banner ****/
 
 .block-preview {
@@ -868,6 +895,7 @@ and something more appropriate for display headings */
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
+        /*background-image: url(../images/homepage/banner.jpg)*/
     }
 
 .left-text-b {
@@ -1281,7 +1309,10 @@ and something more appropriate for display headings */
     bottom: -30px;
     width: 100%;
 }
-
+.overflowText {
+    overflow: hidden; /* Ẩn nội dung tràn ra ngoài */
+    text-overflow: ellipsis;
+}
 .heading {
     margin-left: 100px;
 }
@@ -4469,7 +4500,6 @@ and something more appropriate for display headings */
 
 .tab-content > .tab-pane,
 .pill-content > .pill-pane {
-    display: none;
 }
 
 .tab-content > .active,
@@ -4605,7 +4635,8 @@ and something more appropriate for display headings */
 }
 
 .order-tabs .nav-tabs > li a:hover .meal-tab-icons, .order-tabs .nav-tabs > li a.active .meal-tab-icons {
-    background: #f3f3f3;
+    background: #ffa803;
+    color:#fff;
 }
 
 .all-meals-tab h6 {

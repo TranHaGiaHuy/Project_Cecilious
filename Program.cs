@@ -7,7 +7,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddDbContext<CeciliousContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("CeciliousContext") 
     ?? throw new InvalidOperationException("Connection string 'CeciliousContext' not found.")));
-
+builder.Services.AddRazorPages().AddRazorPagesOptions(options =>
+{
+    options.RootDirectory = "/Pages";
+});
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -28,11 +31,11 @@ using (var scope = app.Services.CreateScope())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-
+/*
 app.MapGet("/", async context =>
 {
     context.Response.Redirect("/Index");
-});
+});*/
 app.UseRouting();
 
 app.UseAuthorization();

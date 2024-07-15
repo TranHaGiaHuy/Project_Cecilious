@@ -3,8 +3,205 @@
 @{
     ViewData["Title"] = "Home page";
 }
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<div>
+	<!--banner start-->
+	<section class="block-preview">
+		<div class="cover-banner" style="background-image: url(../images/homepage/banner.jpg)"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-md-6 col-sm-12">
+					<div class="left-text-b">
+						<h1 class="title">Choose, Order and Checkout</h1>
+						<h6 class="exeption">Specify your address to suggest you the fast delivery</h6>
+						<p>Get our services from 24 hours.</p>
+						<a class="bnr-btn btn-link" href="#">Go To Meal</a>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+					<form>
+						<div class="form-box">
+							<div class="input-group-prepend">
+								<div class="input-group-text"><i class="fas fa-map-marker-alt"></i></div>
+							</div>
+							<input class="find-address skills" name="search" type="text" placeholder="Choose your location" />
+							<div class="input-group-prepend">
+								<div class="input-group-text-1"><i class="fas fa-utensils"></i></div>
+							</div>
+							<input class="find-resto skills" name="search" type="text" placeholder="Choose restaurant" />
+							<button class="search-btn btn-link" type="button">Find Food</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--banner end-->
+	<!--browse-places start-->
+	<section class="browse-places">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="browse-heading">
+						<h6> Browse Places </h6>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12 col-md-12">
+					<div class="owl-carousel browse-owl owl-theme">
+						<div class="item">
+							<div class="places">
+								<a href="places_nearby.html">
+									<div class="b-icon">
+										<img src="~/images/homepage/browse_places/01.svg" alt="">
+									</div>
+									<div class="b-text">
+										Near by
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="item">
+							<div class="places">
+								<a href="places_cafes.html">
+									<div class="b-icon">
+										<img src="~/images/homepage/browse_places/02.svg" alt="">
+									</div>
+									<div class="b-text">
+										Cafes & More
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="item">
+							<div class="places">
+								<a href="places_cafes.html">
+									<div class="b-icon">
+										<img src="~/images/homepage/browse_places/03.svg" alt="">
+									</div>
+									<div class="b-text">
+										Drinks & Nightkise
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="item">
+							<div class="places">
+								<a href="places_cafes.html">
+									<div class="b-icon">
+										<img src="~/images/homepage/browse_places/04.svg" alt="">
+									</div>
+									<div class="b-text">
+										Desserts & Bakes
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="item">
+							<div class="places">
+								<a href="upcoming_events.html">
+									<div class="b-icon">
+										<img src="~/images/homepage/browse_places/05.svg" alt="">
+									</div>
+									<div class="b-text">
+										Upcoming Events
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="item">
+							<div class="places">
+								<a href="places_cafes.html">
+									<div class="b-icon">
+										<img src="~/images/homepage/browse_places/06.svg" alt="">
+									</div>
+									<div class="b-text">
+										Newly Opened
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--browse-places end-->
+	<!--order-food-online-in-your-area start-->
+	<section class="order-food-online">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="new-heading">
+						<h1> Order Food Online In Your Area </h1>
+					</div>
+					<div class="your-location">
+						<span><i class="fas fa-map-marker-alt"></i>New York</span>Change Location
+					</div>
+					<div class="all-items">
+						<div class="search col-lg-4 col-md-6 col-sm-12 col-xs-12">
+							<form>
+								<input class="search-location" name="search" type="search" placeholder="Enter Your Location" />
+								<div class="icon-btn">
+									<div class="cross-icon">
+										<i class="fas fa-crosshairs"></i>
+									</div>
+									<div class="s-m-btn">
+										<button class="search-meal-btn btn-link">Search</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row listPagi">
+				@foreach (var restaurant in Model.Restaurants)
+				{
+					@*First Item ===============================================================================================================*@
+					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 itemPagi">
+						<div class="all-meal">
+							<div class="top">
+								<a asp-page="./Views/Restaurants/Details" asp-route-id="@restaurant.RestaurantId"><div class="bg-gradient"></div></a>
+								<div class="top-img">
+									<img src="@restaurant.Background" alt="">
+								</div>
+								<div class="logo-img">
+									<img src="@restaurant.Logo" alt="">
+								</div>
+								<div class="top-text">
+									<div class="heading"><h4 class="overflowText"><a asp-page="./Views/Restaurants/Details" asp-route-id="@restaurant.RestaurantId">@Html.DisplayFor(modelItem => restaurant.RestaurantName)</a></h4></div>
+									<div class="sub-heading">
+										<h5 class="overflowText"><a asp-page="./Views/Restaurants/Details" asp-route-id="@restaurant.RestaurantId">@restaurant.RestaurantCategory.Name</a></h5>
+										<p>5 sao</p>
+									</div>
+								</div>
+							</div>
+							<div class="bottom">
+								<div class="bottom-text">
+									<div class="time"><i class="far fa-clock"></i>Start Time: @restaurant.StartTime </div>
+									<div class="time"><i class="far fa-clock"></i>End Time	: @restaurant.EndTime</div>
+									<div class="star">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<span>4.5</span>
+										<div class="comments"><a href="#"><i class="fas fa-comment-alt"></i>@restaurant.Review.Count</a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+				}
+			</div>
+			<ul class="listPage">
+			</ul>
+			
+		</div>
+	</section>
+	<!--order-food-online-in-your-area end-->
 </div>
