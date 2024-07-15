@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gjl691YqyVOIiQQgAua+f52V4wrtQOX+5ONzphECxMU=",
+  "Hash": "OVlKvUPM2SCQ4MpRYCBNK1dvjJ2upPjo3xyHj1/SISA=",
   "Source": "Project_Cecilious",
   "BasePath": "_content/Project_Cecilious",
   "Mode": "Default",
@@ -188,12 +188,12 @@
       "OriginalItemSpec": "wwwroot\\css\\mega.menu.css"
     },
     {
-      "Identity": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\css\\mystyle.css",
+      "Identity": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\css\\MyStyle.css",
       "SourceId": "Project_Cecilious",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\",
       "BasePath": "_content/Project_Cecilious",
-      "RelativePath": "css/mystyle.css",
+      "RelativePath": "css/MyStyle.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -204,7 +204,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\mystyle.css"
+      "OriginalItemSpec": "wwwroot\\css\\MyStyle.css"
     },
     {
       "Identity": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\css\\owlslider.css",

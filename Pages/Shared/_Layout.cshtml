@@ -4,15 +4,14 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Layout Project_Cecilious</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/Project_Cecilious.styles.css" asp-append-version="true" />
+    @* <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" /> *@
+    @* <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" /> *@
+    @* <link rel="stylesheet" href="~/Project_Cecilious.styles.css" asp-append-version="true" /> *@
 
 	<!-- Bootstrap core CSS-->
-	<link href="~/css/style.css" rel="stylesheet">
-
 	<link href="~/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-	<link href="~/css/mystyle.css" rel="stylesheet">
+	<link href="~/css/MyStyle.css" rel="stylesheet">
+	@* <link href="~/css/mystyle.css" rel="stylesheet"> *@
 
 	<link href="~/css/responsive.css" rel="stylesheet">
 	<link href="~/css/mega.menu.css" rel="stylesheet">
@@ -20,7 +19,6 @@
 
 	<!-- Owl Carousel for this template-->
 	<link rel="stylesheet" href="~/assets/owlcarousel/assets/owl.carousel.min.css">
-	<link rel="stylesheet" href="~/assets/owlcarousel/owl.carousel.js">
 	<!-- Fontawesome styles for this template-->
 	<link href="~/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
 
@@ -274,16 +272,18 @@
 			</div>
 		</div>
 	</footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
+
+
+	@* ========================================================
+	========================================================
+	======================================================== *@
+
 	<script src="~/vendor/jquery/jquery.min.js"></script>
 	<script src="~/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 	<!-- Core plugin JavaScript-->
 	<script src="~/vendor/jquery-easing/jquery.easing.min.js"></script>
 	<!-- Assect scripts for this page-->
-	<script src="~/assets/jquery.min.html"></script>
-	<script src="~/assets/owlcarousel/owl.carousel.js"></script>
+	<script src="~/vendor/OwlCarousel/owl.carousel.js"></script>
 	<script src="~/js/owlslider.js"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>

@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\assets\\owlcarousel\\owl.carousel.js"
     },
     {
+      "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\css\\MyStyle.css",
+      "PackagePath": "staticwebassets\\css\\MyStyle.css"
+    },
+    {
       "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\css\\bootstrap-select.css",
       "PackagePath": "staticwebassets\\css\\bootstrap-select.css"
     },
@@ -31,10 +35,6 @@
     {
       "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\css\\mega.menu.css",
       "PackagePath": "staticwebassets\\css\\mega.menu.css"
-    },
-    {
-      "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\css\\mystyle.css",
-      "PackagePath": "staticwebassets\\css\\mystyle.css"
     },
     {
       "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\css\\owlslider.css",

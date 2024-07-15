@@ -7,36 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="HtmlCss\vendor\bootstrap\css\bootstrap.min.css" />
-    <Content Include="HtmlCss\vendor\bootstrap\js\bootstrap.bundle.min.js" />
-    <Content Include="HtmlCss\vendor\fontawesome-free\css\all.min.css" />
-    <Content Include="HtmlCss\vendor\fontawesome-free\webfonts\fa-brands-400.eot" />
-    <Content Include="HtmlCss\vendor\fontawesome-free\webfonts\fa-brands-400.svg" />
-    <Content Include="HtmlCss\vendor\fontawesome-free\webfonts\fa-brands-400.ttf" />
-    <Content Include="HtmlCss\vendor\fontawesome-free\webfonts\fa-brands-400.woff" />
-    <Content Include="HtmlCss\vendor\fontawesome-free\webfonts\fa-brands-400.woff2" />
-    <Content Include="HtmlCss\vendor\fontawesome-free\webfonts\fa-brands-400d41d.eot" />
-    <Content Include="HtmlCss\vendor\fontawesome-free\webfonts\fa-regular-400.eot" />
-    <Content Include="HtmlCss\vendor\fontawesome-free\webfonts\fa-regular-400.svg" />
-    <Content Include="HtmlCss\vendor\fontawesome-free\webfonts\fa-regular-400.ttf" />
-    <Content Include="HtmlCss\vendor\fontawesome-free\webfonts\fa-regular-400.woff" />
-    <Content Include="HtmlCss\vendor\fontawesome-free\webfonts\fa-regular-400.woff2" />
-    <Content Include="HtmlCss\vendor\fontawesome-free\webfonts\fa-regular-400d41d.eot" />
-    <Content Include="HtmlCss\vendor\fontawesome-free\webfonts\fa-solid-900.eot" />
-    <Content Include="HtmlCss\vendor\fontawesome-free\webfonts\fa-solid-900.svg" />
-    <Content Include="HtmlCss\vendor\fontawesome-free\webfonts\fa-solid-900.ttf" />
-    <Content Include="HtmlCss\vendor\fontawesome-free\webfonts\fa-solid-900.woff" />
-    <Content Include="HtmlCss\vendor\fontawesome-free\webfonts\fa-solid-900.woff2" />
-    <Content Include="HtmlCss\vendor\fontawesome-free\webfonts\fa-solid-900d41d.eot" />
-    <Content Include="HtmlCss\vendor\jquery-easing\jquery.easing.min.js" />
-    <Content Include="HtmlCss\vendor\jquery\jquery.min.js" />
-    <Content Include="HtmlCss\vendor\OwlCarousel\assets\owl.carousel.css" />
-    <Content Include="HtmlCss\vendor\OwlCarousel\assets\owl.theme.default.min.css" />
-    <Content Include="HtmlCss\vendor\OwlCarousel\assets\owl.video.play.png" />
-    <Content Include="HtmlCss\vendor\OwlCarousel\owl.carousel.js" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.7" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.7">
       <PrivateAssets>all</PrivateAssets>
