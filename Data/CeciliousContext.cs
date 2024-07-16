@@ -19,8 +19,11 @@ namespace Project_Cecilious.Data
         public DbSet<RestaurantCategory> RestaurantCategories { get; set; }
         public DbSet<Dish> Dishes { get; set; }
         public DbSet<DishCategory> DishCategories { get; set; }
+		public DbSet<DishImage> DishImages { get; set; }
+		public DbSet<RestaurantImage> RestaurantImages { get; set; }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
+
+		protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Account>().ToTable("Account");
             modelBuilder.Entity<User>().ToTable("User");

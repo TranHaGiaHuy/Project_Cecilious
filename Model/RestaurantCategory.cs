@@ -6,7 +6,6 @@ namespace Project_Cecilious.Model
     public class RestaurantCategory
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
 
         public int RestaurantCategoryId { get; set; }
 

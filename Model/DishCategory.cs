@@ -6,8 +6,6 @@ namespace Project_Cecilious.Model
     public class DishCategory
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
-
         public int DishCategoryId { get; set; }
 
         public string Name { get; set; } = null!;

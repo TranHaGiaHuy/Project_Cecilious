@@ -6,8 +6,6 @@ namespace Project_Cecilious.Model
     public class Dish
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
-
         public int DishId { get; set; }
 
         [ForeignKey("Restaurant")]
@@ -22,12 +20,14 @@ namespace Project_Cecilious.Model
 
         public double Price { get; set; }
 
-        public string LinkToShoppe { get; set; } = null!;
+        public string? LinkToShoppe { get; set; } = null!;
 
-        public string Image { get; set; } = null!;
+        public string? Image { get; set; } = null!;
+
+		public virtual ICollection<DishImage>? DishImages { get; set; } = new List<DishImage>();
 
 
-        public virtual DishCategory DishCategory { get; set; } = null!;
+		public virtual DishCategory DishCategory { get; set; } = null!;
 
         public virtual Restaurant Restaurant { get; set; } = null!;
     }

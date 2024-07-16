@@ -12,15 +12,13 @@ namespace Project_Cecilious.Model
 
         public int RestaurantId { get; set; }
 
-        public string Title { get; set; } = null!;
-
         public string Description { get; set; } = null!;
 
-        public string Image { get; set; } = null!;
+        public string? Image { get; set; } = null!;
 
         public float Rating { get; set; }
 
-        public DateOnly CreateTime { get; set; }
+        public DateTime CreateTime { get; set; }
 
         public virtual User User { get; set; } = null!;
 

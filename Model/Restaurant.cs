@@ -6,11 +6,8 @@ namespace Project_Cecilious.Model
     public class Restaurant
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int RestaurantId { get; set; }
 
-        
-        
         public string RestaurantName { get; set; } = null!;
 
         public string Phone { get; set; } = null!;
@@ -25,6 +22,8 @@ namespace Project_Cecilious.Model
 
 		public string Background { get; set; } = null!;
 
+        public int Status { get; set; }
+
 		[ForeignKey("RestaurantCategory")]
 
 		public int? RestaurantCategoryId { get; set; }
@@ -35,9 +34,9 @@ namespace Project_Cecilious.Model
 		public virtual ICollection<Dish> Dishes { get; set; } = new List<Dish>();
 
 		public virtual ICollection<Review> Review { get; set; } = new List<Review>();
+		public virtual ICollection<RestaurantImage> RestaurantImages { get; set; } = new List<RestaurantImage>();
 
 		public virtual RestaurantAddress RestaurantAddress { get; set; } = null!;
-
 
         public virtual RestaurantCategory? RestaurantCategory { get; set; }
 

@@ -7,7 +7,6 @@ namespace Project_Cecilious.Model
     public class User
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
 
         public int UserId { get; set; }
 
@@ -15,7 +14,7 @@ namespace Project_Cecilious.Model
 
         public int Phone { get; set; }
 
-        public DateTime CreateDate { get; set; }
+        public DateTime? CreateDate { get; set; }
 
         public string Gender { get; set; } = null!;
 
@@ -23,7 +22,9 @@ namespace Project_Cecilious.Model
 
         public string? Address { get; set; }
 
-        public virtual ICollection<Account> Accounts { get; set; } = new List<Account>();
-    }
+		public virtual Account Account { get; set; } = null!;
+		public virtual Review Review { get; set; } = null!;
+
+	}
 
 }

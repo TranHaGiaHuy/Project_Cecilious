@@ -1,7 +1,7 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+	ViewData["Title"] = "Home page";
 }
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 <div>
@@ -163,7 +163,7 @@
 					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 itemPagi">
 						<div class="all-meal">
 							<div class="top">
-								<a asp-page="./Views/Restaurants/Details" asp-route-id="@restaurant.RestaurantId"><div class="bg-gradient"></div></a>
+								<a asp-page="./Restaurants/Details" asp-route-id="@restaurant.RestaurantId"><div class="bg-gradient"></div></a>
 								<div class="top-img">
 									<img src="@restaurant.Background" alt="">
 								</div>
@@ -200,7 +200,7 @@
 			</div>
 			<ul class="listPage">
 			</ul>
-			
+
 		</div>
 	</section>
 	<!--order-food-online-in-your-area end-->

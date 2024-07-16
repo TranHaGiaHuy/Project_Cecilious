@@ -1,0 +1,392 @@
+﻿@page 
+@model Project_Cecilious.Pages.Views.Restaurants.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<!--title-bar start-->
+<section class="title-bar">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="left-title-text">
+                    <h3>Restaurant Detail View</h3>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="right-title-text">
+                    <ul>
+                        <li class="breadcrumb-item"><a asp-area="" asp-page="/Index">Home</a></li>
+                        <li class="breadcrumb-item"><a asp-page=".Details" asp-route-id="@Model.Restaurant.RestaurantId">@Model.Restaurant.RestaurantName</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--title-bar end-->
+<!--partner-restaurant start-->
+<section class="all-partners">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9 col-md-12">
+                <div id="sync1" class="owl-carousel owl-theme">
+                  @foreach (var image in Model.Restaurant.RestaurantImages)
+                    {
+                        <div class="item">
+                            <img src="/images/homepage/meals/img-1.jpg" alt="">
+                        </div>
+                         <div class="item">
+                        <img src="/images/homepage/meals/img-1.jpg" alt="">
+                        </div>
+                    }
+
+                </div>
+                <div id="sync2" class="owl-carousel owl-theme">
+                    @foreach (var image in Model.Restaurant.RestaurantImages)
+                    {
+                        <div class="item">
+                            <img src="@image.ImagePath" alt="">
+                        </div>
+                    }
+                </div>
+
+                <div class="resto-dt">
+                    <div class="resto-detail">
+                        <div class="resto-picy">
+                            <a href="#"><img src="@Model.Restaurant.Logo" alt=""></a>
+                        </div>
+                        <div class="name-location">
+                            <a href="#"><h1>  @Html.DisplayFor(model => model.Restaurant.RestaurantName)</h1></a>
+                            <p><span><i class="fas fa-map-marker-alt"></i></span>@Model.Restaurant.RestaurantAddress.District, @Model.Restaurant.RestaurantAddress.Province</p>
+                        </div>
+                    </div>
+                    <div class="right-side-btns">
+
+                        <div class="resto-review-stars">
+                            @for (int i = 1; i <= @Model.totalReviewPoint; i++)
+                            {
+                                <i class="fas fa-star star"
+                                   style="--i: 0"></i>
+                            }
+                            @for (int i = 0; i < 5 - Model.totalReviewPoint; i++)
+                            {
+                                <i class="far fa-star star"
+                                   style="--i: 0"></i>
+                            }
+                            <span>@Model.totalReviewPoint</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="all-tabs">
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                            <a href="#overview" class="nav-link active" data-toggle="tab">Overview</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#menu" class="nav-link" data-toggle="tab">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#reviews" class="nav-link" data-toggle="tab">Reviews</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="overview">
+                            <div class="restaurants-detail-bg">
+                                <h4>About Restaurant</h4>
+                                <div class="overview-details">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="flex-dt">
+                                                    <ul class="view-dt">
+                                                        <li>Name</li>
+                                                        <li>Category</li>
+                                                        <li>Contact</li>
+                                                        <li>Opening Hours</li>
+                                                    </ul>
+                                                    <ul class="view-dt">
+                                                        <li>:</li>
+                                                        <li>:</li>
+                                                        <li>:</li>
+
+                                                    </ul>
+                                                    <ul class="view-dt-1">
+                                                        <li>@Model.Restaurant.RestaurantName</li>
+                                                        <li>@Model.Restaurant.RestaurantCategory.Name</li>
+                                                        <li>@Model.Restaurant.Phone</li>
+                                                        <li>@Model.Restaurant.StartTime ~ @Model.Restaurant.EndTime</li>
+
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="flex-dt">
+                                                    <ul class="view-dt">
+                                                        <li>Number</li>
+                                                        <li>Street</li>
+                                                        <li>District</li>
+                                                        <li>Province</li>
+                                                        <li>Map</li>
+
+                                                    </ul>
+                                                    <ul class="view-dt">
+                                                        <li>:</li>
+                                                        <li>:</li>
+                                                        <li>:</li>
+                                                        <li>:</li>
+                                                        <li>:</li>
+                                                    </ul>
+                                                    <ul class="view-dt-1">
+                                                        <li>@Model.Restaurant.RestaurantAddress.HouseNumber</li>
+                                                        <li>@Model.Restaurant.RestaurantAddress.Street</li>
+                                                        <li>@Model.Restaurant.RestaurantAddress.District</li>
+                                                        <li>@Model.Restaurant.RestaurantAddress.Province</li>
+                                                        <li> <a href="@Model.Restaurant.RestaurantAddress.GoogleMapLink">@Model.Restaurant.RestaurantAddress.GoogleMapLink</a> </li>
+
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="restaurants-detail-bg">
+                                <h4>Description</h4>
+                                <p>@Model.Restaurant.Description</p>
+                            </div>
+                            <div class="ads-offer">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="ads-offer-1" style="background-image: url(/images/restaurant-detail/offer-bnnr-1.jpg)"></div>
+                                            <div class="offer-bnnr-items">
+                                                <h1>10% off </h1>
+                                                <p>on all orders get the code : 156CD85</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane" id="menu">
+                            <div class="restaurants-order-bg m-bottom">
+                                <h4>Restaurant Order Online Meals</h4>
+                                <div class="order-tabs">
+                                    <ul class="nav nav-tabs indicator">
+                                        <li data-filter="all" class="active">
+                                            <a href="" data-toggle="tab" class="active">
+                                                <div class="meal-tab-icons">
+                                                    <img src="/images/homepage/quick-searches/meal-2.svg" class="img-responsive" alt="">
+                                                    <p>All</p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        @foreach (var cate in Model.Cates)
+                                        {
+                                            <li data-filter="@cate.Name">
+                                                <a class="hoverCata" href="" data-toggle="tab" class="active">
+                                                    <div class="meal-tab-icons">
+                                                        <img src="/images/homepage/quick-searches/meal-2.svg" class="img-responsive" alt="">
+                                                        <p>@cate.Name</p>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        }
+                                    </ul>
+                                </div>
+                                <div class="tab-pane">
+                                    <div class="all-meals-tab">
+                                        <h6>List of Dishes</h6>
+                                        <div class="all-meal-dt">
+                                            <ul class="row items">
+                                                @foreach (var item in Model.Dishes)
+                                                {
+                                                    <a asp-area="Dishes" asp-page="/DishDetail" asp-route-id="@item.DishId">
+                                                    <li data-category="" data-price="" class="col-md-6 pm-right">
+                                                        <div class="meals-dt">
+                                                            <div class="meal-list">
+                                                                <ul class="list-unstyled">
+                                                                    <li class=" d-flex align-items-center">
+                                                                        <img src="@item.Image" class="img-responsive" alt="image" title="image">
+                                                                        <div class="caption-meal">
+                                                                            <a asp-area="Dishes" asp-page="/DishDetail" asp-route-id="@item.DishId"><h4>@item.DishName</h4></a>
+                                                                            <div class="star">
+                                                                              
+                                                                                <strong class="font-weight-light">@item.DishCategory.Name</strong>
+                                                                                <span>4.5</span>
+                                                                            </div>
+                                                                            <p>@item.Price</p>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    </a>
+                                                }
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        @* ====================================================================================================================== *@
+                        <div class="tab-pane" id="reviews">
+                            @* ========================================== *@
+                            <div class="comment-post">
+                                <div class="post-items">
+                                    <a href="my_dashboard.html">
+                                        <div class="img-dp">
+                                            <i class="fas fa-user"></i>
+                                        </div>
+                                    </a>
+                                    <div class="select-rating">
+                                        <p class="align-bottom">Your Rating :</p>
+                                        <div class="rating">
+                                            <input value="@Model.currentUser.Review.Rating"
+                                                   type="number"
+                                                   name="rating"
+                                                   hidden />
+                                            <i class="far fa-star star"
+                                               style="--i: 0"></i>
+                                            <i class="far fa-star star"
+                                               style="--i: 1"></i>
+                                            <i class="far fa-star star"
+                                               style="--i: 2"></i>
+                                            <i class="far fa-star star"
+                                               style="--i: 3"></i>
+                                            <i class="far fa-star star"
+                                               style="--i: 4"></i>
+                                        </div>
+                                    </div>
+                                    <form>
+                                        <textarea class="description-area" name="post"
+                                                  placeholder="Please describe the reason for your rating to help the restaurant (150 words)">@Model.currentUser.Review.Description</textarea>
+                                        <div class="d-flex justify-content-around">
+                                            <div class="add-image">
+                                                <input type="file" id="file">
+                                                <label for="file"><i class="far fa-image"></i> Add Photo</label>
+                                            </div>
+                                            <div class="images">
+                                                <div class="select-images">
+                                                    <ul>
+                                                        <li class="image-select">
+                                                            <img src="@Model.currentUser.Review.Image" alt="">
+                                                            <div class="close-icon">
+                                                                <i class="fas fa-window-close"></i>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="publish">
+                                                <input class="rating-btn btn-link" type="submit" value="Publish Review">
+                                            </div>
+                                        </div>
+                                    </form>
+
+                                </div>
+                            </div>
+                            <h3 class="mt-20 font-weight-bold">List of comments: </h3>
+                            @* ========================================== *@
+                            @if (Model.listReview != null && Model.listReview.Count!=0)
+                            {
+                                
+                            @foreach (var review in Model.listReview)
+                            {
+                                var empty = 5 - review.Rating;
+                                <div class="main-comments">
+                                    <div class="rating-1">
+                                        <div class="user-detail-heading">
+                                            <a href="user_profile_view.html"><img src="images/recipe-details/comment-5.png" alt=""></a>
+                                            <h4>@review.User.FullName</h4>
+                                          
+                                            <br>
+                                            <div class="">
+                                                <p>@review.User.FullName</p>
+                                                @for(int i = 1; i <=review.Rating; i++)
+                                                {
+                                                    <i class="fas fa-star star"
+                                                       style="--i: 0"></i>
+                                                }
+                                                @for (int i = 0; i < empty; i++)
+                                                {
+                                                    <i class="far fa-star star"
+                                                       style="--i: 0"></i>
+                                                }
+                                            </div>
+                                        </div>
+                                        <div class="reply-time">
+                                            <p><i class="far fa-clock"></i>@review.CreateTime</p>
+                                        </div>
+                                        <div class="comment-description">
+                                            <p>@review.Description</p>
+                                        </div>
+                                    </div>
+                                    <div class="post-images">
+                                        <div class="select-images">
+                                            <ul>
+                                                <li class="image-select">
+                                                    <img src="@review.Image" alt="">
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                            }
+
+                            @* ========================================== *@
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            @* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////// *@
+
+
+            <div class="col-lg-3 col-md-4">
+
+                <div class="popular-restaurants">
+                    <h4>Popular Restaurents </h4>
+                    <div class="popular-restaurants-items">
+                        <ul class="list-unstyled">
+                            @foreach (var item in Model.listRes)
+                            {
+                                <li>
+                                    <a href="restaurant_detail.html"><img src="@item.Logo" class="img-responsive" alt="image" title="image"></a>
+                                    <div class="caption">
+                                        <a href="restaurant_detail.html"><h4>@item.RestaurantName</h4></a>
+                                        <p>@item.RestaurantAddress.District, @item.RestaurantAddress.Province</p>
+                                        <div class="star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <span>4.5</span>
+                                        </div>
+                                    </div>
+                                </li>
+                            }
+                        </ul>
+                    </div>
+                </div>
+                <div class="google-ads">
+                    <a href="#"><img src="/images/partners/google-ad.jpg" alt="image" title="Google Ads"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--partner-restaurant end-->
+<!--footer start-->

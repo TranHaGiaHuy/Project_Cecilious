@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\css\\MyStyle.css"
     },
     {
+      "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\css\\Rating.css",
+      "PackagePath": "staticwebassets\\css\\Rating.css"
+    },
+    {
       "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\css\\bootstrap-select.css",
       "PackagePath": "staticwebassets\\css\\bootstrap-select.css"
     },
@@ -413,6 +417,26 @@
       "PackagePath": "staticwebassets\\images\\homepage\\meals\\img-1.jpg"
     },
     {
+      "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\images\\homepage\\meals\\img-12.jpg",
+      "PackagePath": "staticwebassets\\images\\homepage\\meals\\img-12.jpg"
+    },
+    {
+      "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\images\\homepage\\meals\\img-13.jpg",
+      "PackagePath": "staticwebassets\\images\\homepage\\meals\\img-13.jpg"
+    },
+    {
+      "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\images\\homepage\\meals\\img-15.jpg",
+      "PackagePath": "staticwebassets\\images\\homepage\\meals\\img-15.jpg"
+    },
+    {
+      "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\images\\homepage\\meals\\img-17.jpg",
+      "PackagePath": "staticwebassets\\images\\homepage\\meals\\img-17.jpg"
+    },
+    {
+      "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\images\\homepage\\meals\\img-18.jpg",
+      "PackagePath": "staticwebassets\\images\\homepage\\meals\\img-18.jpg"
+    },
+    {
       "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\images\\homepage\\meals\\img-2.jpg",
       "PackagePath": "staticwebassets\\images\\homepage\\meals\\img-2.jpg"
     },
@@ -441,8 +465,24 @@
       "PackagePath": "staticwebassets\\images\\homepage\\meals\\img-8.jpg"
     },
     {
+      "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\images\\homepage\\meals\\img-9.jpg",
+      "PackagePath": "staticwebassets\\images\\homepage\\meals\\img-9.jpg"
+    },
+    {
       "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\images\\homepage\\meals\\logo-1.jpg",
       "PackagePath": "staticwebassets\\images\\homepage\\meals\\logo-1.jpg"
+    },
+    {
+      "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\images\\homepage\\meals\\logo-12.jpg",
+      "PackagePath": "staticwebassets\\images\\homepage\\meals\\logo-12.jpg"
+    },
+    {
+      "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\images\\homepage\\meals\\logo-13.jpg",
+      "PackagePath": "staticwebassets\\images\\homepage\\meals\\logo-13.jpg"
+    },
+    {
+      "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\images\\homepage\\meals\\logo-15.jpg",
+      "PackagePath": "staticwebassets\\images\\homepage\\meals\\logo-15.jpg"
     },
     {
       "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\images\\homepage\\meals\\logo-2.jpg",
@@ -471,6 +511,130 @@
     {
       "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\images\\homepage\\meals\\logo-8.jpg",
       "PackagePath": "staticwebassets\\images\\homepage\\meals\\logo-8.jpg"
+    },
+    {
+      "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\images\\homepage\\meals\\logo-9.jpg",
+      "PackagePath": "staticwebassets\\images\\homepage\\meals\\logo-9.jpg"
+    },
+    {
+      "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\images\\homepage\\meals\\meal-1.png",
+      "PackagePath": "staticwebassets\\images\\homepage\\meals\\meal-1.png"
+    },
+    {
+      "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\images\\homepage\\meals\\meal-10.png",
+      "PackagePath": "staticwebassets\\images\\homepage\\meals\\meal-10.png"
+    },
+    {
+      "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\images\\homepage\\meals\\meal-11.png",
+      "PackagePath": "staticwebassets\\images\\homepage\\meals\\meal-11.png"
+    },
+    {
+      "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\images\\homepage\\meals\\meal-12.png",
+      "PackagePath": "staticwebassets\\images\\homepage\\meals\\meal-12.png"
+    },
+    {
+      "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\images\\homepage\\meals\\meal-13.png",
+      "PackagePath": "staticwebassets\\images\\homepage\\meals\\meal-13.png"
+    },
+    {
+      "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\images\\homepage\\meals\\meal-14.png",
+      "PackagePath": "staticwebassets\\images\\homepage\\meals\\meal-14.png"
+    },
+    {
+      "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\images\\homepage\\meals\\meal-15.png",
+      "PackagePath": "staticwebassets\\images\\homepage\\meals\\meal-15.png"
+    },
+    {
+      "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\images\\homepage\\meals\\meal-16.png",
+      "PackagePath": "staticwebassets\\images\\homepage\\meals\\meal-16.png"
+    },
+    {
+      "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\images\\homepage\\meals\\meal-17.png",
+      "PackagePath": "staticwebassets\\images\\homepage\\meals\\meal-17.png"
+    },
+    {
+      "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\images\\homepage\\meals\\meal-18.png",
+      "PackagePath": "staticwebassets\\images\\homepage\\meals\\meal-18.png"
+    },
+    {
+      "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\images\\homepage\\meals\\meal-19.png",
+      "PackagePath": "staticwebassets\\images\\homepage\\meals\\meal-19.png"
+    },
+    {
+      "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\images\\homepage\\meals\\meal-2.png",
+      "PackagePath": "staticwebassets\\images\\homepage\\meals\\meal-2.png"
+    },
+    {
+      "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\images\\homepage\\meals\\meal-20.png",
+      "PackagePath": "staticwebassets\\images\\homepage\\meals\\meal-20.png"
+    },
+    {
+      "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\images\\homepage\\meals\\meal-21.png",
+      "PackagePath": "staticwebassets\\images\\homepage\\meals\\meal-21.png"
+    },
+    {
+      "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\images\\homepage\\meals\\meal-22.png",
+      "PackagePath": "staticwebassets\\images\\homepage\\meals\\meal-22.png"
+    },
+    {
+      "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\images\\homepage\\meals\\meal-23.png",
+      "PackagePath": "staticwebassets\\images\\homepage\\meals\\meal-23.png"
+    },
+    {
+      "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\images\\homepage\\meals\\meal-24.png",
+      "PackagePath": "staticwebassets\\images\\homepage\\meals\\meal-24.png"
+    },
+    {
+      "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\images\\homepage\\meals\\meal-25.png",
+      "PackagePath": "staticwebassets\\images\\homepage\\meals\\meal-25.png"
+    },
+    {
+      "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\images\\homepage\\meals\\meal-26.png",
+      "PackagePath": "staticwebassets\\images\\homepage\\meals\\meal-26.png"
+    },
+    {
+      "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\images\\homepage\\meals\\meal-27.png",
+      "PackagePath": "staticwebassets\\images\\homepage\\meals\\meal-27.png"
+    },
+    {
+      "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\images\\homepage\\meals\\meal-28.png",
+      "PackagePath": "staticwebassets\\images\\homepage\\meals\\meal-28.png"
+    },
+    {
+      "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\images\\homepage\\meals\\meal-29.png",
+      "PackagePath": "staticwebassets\\images\\homepage\\meals\\meal-29.png"
+    },
+    {
+      "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\images\\homepage\\meals\\meal-3.png",
+      "PackagePath": "staticwebassets\\images\\homepage\\meals\\meal-3.png"
+    },
+    {
+      "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\images\\homepage\\meals\\meal-30.png",
+      "PackagePath": "staticwebassets\\images\\homepage\\meals\\meal-30.png"
+    },
+    {
+      "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\images\\homepage\\meals\\meal-4.png",
+      "PackagePath": "staticwebassets\\images\\homepage\\meals\\meal-4.png"
+    },
+    {
+      "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\images\\homepage\\meals\\meal-5.png",
+      "PackagePath": "staticwebassets\\images\\homepage\\meals\\meal-5.png"
+    },
+    {
+      "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\images\\homepage\\meals\\meal-6.png",
+      "PackagePath": "staticwebassets\\images\\homepage\\meals\\meal-6.png"
+    },
+    {
+      "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\images\\homepage\\meals\\meal-7.png",
+      "PackagePath": "staticwebassets\\images\\homepage\\meals\\meal-7.png"
+    },
+    {
+      "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\images\\homepage\\meals\\meal-8.png",
+      "PackagePath": "staticwebassets\\images\\homepage\\meals\\meal-8.png"
+    },
+    {
+      "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\images\\homepage\\meals\\meal-9.png",
+      "PackagePath": "staticwebassets\\images\\homepage\\meals\\meal-9.png"
     },
     {
       "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\images\\homepage\\mobile.png",
@@ -1095,6 +1259,10 @@
     {
       "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\js\\pagination.js",
       "PackagePath": "staticwebassets\\js\\pagination.js"
+    },
+    {
+      "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\js\\rating.js",
+      "PackagePath": "staticwebassets\\js\\rating.js"
     },
     {
       "Id": "D:\\SU24\\PRN221\\Project_Cecilious\\wwwroot\\js\\recipeowlslider.js",

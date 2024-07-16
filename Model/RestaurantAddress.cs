@@ -6,10 +6,9 @@ namespace Project_Cecilious.Model
     public class RestaurantAddress
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int RestaurantAddressId { get; set; }
 
-        public string HouseNumber { get; set; } = null!;
+        public string? HouseNumber { get; set; } = null!;
 
         public string Street { get; set; } = null!;
 
@@ -17,7 +16,7 @@ namespace Project_Cecilious.Model
 
         public string Province { get; set; } = null!;
 
-        public string GoogleMapLink { get; set; } = null!;
+        public string? GoogleMapLink { get; set; } = null!;
 
         public virtual ICollection<Restaurant> Restaurants { get; set; } = new List<Restaurant>();
     }

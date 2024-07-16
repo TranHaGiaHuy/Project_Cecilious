@@ -44,9 +44,11 @@ D:\SU24\PRN221\Project_Cecilious\bin\Debug\net8.0\Microsoft.NET.StringTools.dll
 D:\SU24\PRN221\Project_Cecilious\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 D:\SU24\PRN221\Project_Cecilious\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
 D:\SU24\PRN221\Project_Cecilious\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\SU24\PRN221\Project_Cecilious\bin\Debug\net8.0\dotnet-aspnet-codegenerator-design.dll
 D:\SU24\PRN221\Project_Cecilious\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
 D:\SU24\PRN221\Project_Cecilious\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
 D:\SU24\PRN221\Project_Cecilious\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\SU24\PRN221\Project_Cecilious\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 D:\SU24\PRN221\Project_Cecilious\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 D:\SU24\PRN221\Project_Cecilious\bin\Debug\net8.0\Mono.TextTemplating.dll
 D:\SU24\PRN221\Project_Cecilious\bin\Debug\net8.0\Newtonsoft.Json.dll
@@ -233,6 +235,7 @@ D:\SU24\PRN221\Project_Cecilious\obj\Debug\net8.0\Project_Cecilious.csproj.CoreC
 D:\SU24\PRN221\Project_Cecilious\obj\Debug\net8.0\Project_Cecilious.MvcApplicationPartsAssemblyInfo.cache
 D:\SU24\PRN221\Project_Cecilious\obj\Debug\net8.0\Project_Cecilious.RazorAssemblyInfo.cache
 D:\SU24\PRN221\Project_Cecilious\obj\Debug\net8.0\Project_Cecilious.RazorAssemblyInfo.cs
+D:\SU24\PRN221\Project_Cecilious\obj\Debug\net8.0\Project_Cecilious.sourcelink.json
 D:\SU24\PRN221\Project_Cecilious\obj\Debug\net8.0\staticwebassets.build.json
 D:\SU24\PRN221\Project_Cecilious\obj\Debug\net8.0\staticwebassets.development.json
 D:\SU24\PRN221\Project_Cecilious\obj\Debug\net8.0\staticwebassets\msbuild.Project_Cecilious.Microsoft.AspNetCore.StaticWebAssets.props
@@ -249,6 +252,4 @@ D:\SU24\PRN221\Project_Cecilious\obj\Debug\net8.0\refint\Project_Cecilious.dll
 D:\SU24\PRN221\Project_Cecilious\obj\Debug\net8.0\Project_Cecilious.pdb
 D:\SU24\PRN221\Project_Cecilious\obj\Debug\net8.0\Project_Cecilious.genruntimeconfig.cache
 D:\SU24\PRN221\Project_Cecilious\obj\Debug\net8.0\ref\Project_Cecilious.dll
-D:\SU24\PRN221\Project_Cecilious\bin\Debug\net8.0\dotnet-aspnet-codegenerator-design.dll
-D:\SU24\PRN221\Project_Cecilious\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
-D:\SU24\PRN221\Project_Cecilious\obj\Debug\net8.0\Project_Cecilious.sourcelink.json
+D:\SU24\PRN221\Project_Cecilious\bin\Debug\net8.0\libman.json

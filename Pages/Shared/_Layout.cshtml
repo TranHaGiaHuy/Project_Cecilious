@@ -11,7 +11,6 @@
 	<!-- Bootstrap core CSS-->
 	<link href="~/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link href="~/css/MyStyle.css" rel="stylesheet">
-	@* <link href="~/css/mystyle.css" rel="stylesheet"> *@
 
 	<link href="~/css/responsive.css" rel="stylesheet">
 	<link href="~/css/mega.menu.css" rel="stylesheet">
@@ -24,33 +23,14 @@
 	<link rel="stylesheet" href="~/assets/owlcarousel/assets/owl.carousel.min.css">
 	<!-- Fontawesome styles for this template-->
 	<link href="~/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+	<link href="~/css/Rating.css" rel="stylesheet" type="text/css">
+
 
 </head>
 <body>
     
 	<header id="header" class="default">
-		<div class="topbar">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-4">
-						<div class="topbar-left text-center text-md-left">
-							<ul class="list-inline">
-								<li> <a href="contact.html"> Contact </a></li>
-								<li> <a href="about.html"> About Us </a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-md-8">
-						<div class="topbar-right text-center text-md-right">
-							<ul class="list-inline">
-								<li><a href="#"><i class="far fa-calendar-alt"></i>Table Bookings</a> </li>
-
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
 		<div class="menu">
 			<div class="container">
 				<div class="row">
@@ -73,6 +53,9 @@
 									<ul class="navbar-nav mr-auto nav-text">
 										<li class="nav-item active">
 											<a class="nav-link" asp-page="/Index">Home </a>
+										</li>
+										<li class="nav-item ">
+											<a class="nav-link" asp-page="/About">About Us </a>
 										</li>
 										<li class="nav-item dropdown">
 											<a class="nav-link dropdown-toggle-no-caret" href="#" id="megaDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Pages <i class="fas fa-caret-down"></i></a>
@@ -162,13 +145,12 @@
 
 										<a class="dropdown-toggle-no-caret" href="#" id="accountDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-user-circle"></i>John Doe  <i class="fas fa-caret-down"></i></a>
 										<div class="dropdown-menu dropdown-menu-right" aria-labelledby="accountDropdown">
-											<a class="dropdown-item" href="my_profile_dashbord.html"> My Profile</a>
+											<a class="dropdown-item" asp-area="Users" asp-page="/CreateIndex"> My Profile</a>
 											<a class="dropdown-item" href="#"> Bookmarks</a>
 											<a class="dropdown-item" href="#"> Booking Tables</a>
 											<a class="dropdown-item" href="#"> Find Friends</a>
 											<a class="dropdown-item" href="setting.html"> Setting</a>
 											<a class="dropdown-item" href="signin.html"> Logout</a>
-
 										</div>
 									</li>
 								</ul>
@@ -295,6 +277,7 @@
 	<script src="~/js/bootstrap-datepicker.js"></script>
 	<script src="~/js/bootstrap-select.js"></script>
 	<script src="~/js/category.js"></script>
+	<script src="~/js/rating.js"></script>
 
 	<script>
 		$(function () {

@@ -5,7 +5,6 @@ namespace Project_Cecilious.Model
 {
     public class Account
     {
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         [Key]
         public int AccountId { get; set; }
 

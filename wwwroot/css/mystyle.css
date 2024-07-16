@@ -1294,14 +1294,17 @@ and something more appropriate for display headings */
     position: absolute;
     z-index: 716;
     bottom: -35px;
-    margin-left: 20px;
+    margin-left: 10px;
+    
 }
-
     .logo-img img {
         Width: 100%;
         border: 2px solid #fff;
         border-radius: 5px;
         box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
     }
 
 .top-text {
@@ -3207,6 +3210,7 @@ and something more appropriate for display headings */
     width: 100%;
     padding: 20px;
     float: left;
+    margin-bottom:10px
 }
 
     .post-items .img-dp {
@@ -3361,11 +3365,18 @@ and something more appropriate for display headings */
 .post-items .select-rating {
     float: left;
     display: flex;
+    justify-content:center;
+    text-align: center;
+    margin-left: 20px;
+    padding: 19px 0px 24px 0px;
+}
+.post-items .select-fullname {
+
     margin-left: 20px;
     padding: 19px 0px 24px 0px;
 }
 
-    .post-items .select-rating h4 {
+.post-items .select-rating h4 {
         font-size: 14px;
         font-weight: 500;
         cursor: pointer;
@@ -3378,14 +3389,14 @@ and something more appropriate for display headings */
 }
 
     .select-rating .rating-stars > li {
-        color: #e1e1e1;
+        color: #ffa803;
         line-height: 18px;
         padding: 0px 1px;
     }
 
-        .select-rating .rating-stars > li:hover {
+       /* .select-rating .rating-stars > li:hover {
             color: #ffa803;
-        }
+        }*/
 
 .rating-input {
     border: 1px solid #e1e1e1;
@@ -4318,6 +4329,8 @@ and something more appropriate for display headings */
     width: 100%;
     padding: 20px 0px;
     border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+
 }
 
 .resto-detail {
@@ -4327,10 +4340,14 @@ and something more appropriate for display headings */
 
 .resto-picy {
     Width: 60px;
+    Height: 60px;
     margin-bottom: -3px;
 }
 
     .resto-picy img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
         border: 2px solid #fff;
         border-radius: 5px;
         box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
@@ -4737,7 +4754,6 @@ and something more appropriate for display headings */
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
-    margin-bottom: 30px;
 }
 
 .add-image {
@@ -4784,7 +4800,7 @@ and something more appropriate for display headings */
     margin-bottom: -2px;
     border-radius: 3px;
     position: relative;
-    width: 80px;
+    width: 200px;
 }
 
 .select-images {

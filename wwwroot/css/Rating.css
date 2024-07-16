@@ -1,0 +1,22 @@
+﻿.rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 0.5rem;
+    font-size: 2rem;
+    color: var(--yellow);
+}
+
+.rating .star {
+    cursor: pointer;
+    color: gold;
+    }
+
+.rating .star.active {
+    opacity: 0;
+    animation: animate 0.5s calc(var(--i) * 0.1s) ease-in-out forwards;
+    }
+
+.rating .star:hover {
+            transform: scale(1.1);
+        }

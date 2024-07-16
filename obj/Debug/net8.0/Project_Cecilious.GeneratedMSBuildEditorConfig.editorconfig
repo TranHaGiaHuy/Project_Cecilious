@@ -26,6 +26,50 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\SU24\PRN221\Project_Cecilious
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/SU24/PRN221/Project_Cecilious/Areas/Dishes/Pages/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGlzaGVzXFBhZ2VzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SU24/PRN221/Project_Cecilious/Areas/Dishes/Pages/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGlzaGVzXFBhZ2VzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SU24/PRN221/Project_Cecilious/Areas/Dishes/Pages/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGlzaGVzXFBhZ2VzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SU24/PRN221/Project_Cecilious/Areas/Dishes/Pages/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGlzaGVzXFBhZ2VzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SU24/PRN221/Project_Cecilious/Areas/Dishes/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGlzaGVzXFBhZ2VzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SU24/PRN221/Project_Cecilious/Areas/Users/Pages/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlcnNcUGFnZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SU24/PRN221/Project_Cecilious/Areas/Users/Pages/CreateIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlcnNcUGFnZXNcQ3JlYXRlSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SU24/PRN221/Project_Cecilious/Areas/Users/Pages/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlcnNcUGFnZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SU24/PRN221/Project_Cecilious/Areas/Users/Pages/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlcnNcUGFnZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SU24/PRN221/Project_Cecilious/Areas/Users/Pages/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlcnNcUGFnZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SU24/PRN221/Project_Cecilious/Pages/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/SU24/PRN221/Project_Cecilious/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -38,48 +82,28 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/SU24/PRN221/Project_Cecilious/Pages/Restaurants/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzdGF1cmFudHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SU24/PRN221/Project_Cecilious/Pages/Restaurants/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzdGF1cmFudHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SU24/PRN221/Project_Cecilious/Pages/Restaurants/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzdGF1cmFudHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SU24/PRN221/Project_Cecilious/Pages/Restaurants/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzdGF1cmFudHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SU24/PRN221/Project_Cecilious/Pages/Restaurants/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzdGF1cmFudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/SU24/PRN221/Project_Cecilious/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/SU24/PRN221/Project_Cecilious/Pages/Views/Dishes/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld3NcRGlzaGVzXENyZWF0ZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/SU24/PRN221/Project_Cecilious/Pages/Views/Dishes/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld3NcRGlzaGVzXERlbGV0ZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/SU24/PRN221/Project_Cecilious/Pages/Views/Dishes/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld3NcRGlzaGVzXERldGFpbHMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/SU24/PRN221/Project_Cecilious/Pages/Views/Dishes/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld3NcRGlzaGVzXEVkaXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/SU24/PRN221/Project_Cecilious/Pages/Views/Dishes/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld3NcRGlzaGVzXEluZGV4LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/SU24/PRN221/Project_Cecilious/Pages/Views/Restaurants/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld3NcUmVzdGF1cmFudHNcQ3JlYXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/SU24/PRN221/Project_Cecilious/Pages/Views/Restaurants/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld3NcUmVzdGF1cmFudHNcRGVsZXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/SU24/PRN221/Project_Cecilious/Pages/Views/Restaurants/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld3NcUmVzdGF1cmFudHNcRGV0YWlscy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/SU24/PRN221/Project_Cecilious/Pages/Views/Restaurants/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld3NcUmVzdGF1cmFudHNcRWRpdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/SU24/PRN221/Project_Cecilious/Pages/Views/Restaurants/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld3NcUmVzdGF1cmFudHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/SU24/PRN221/Project_Cecilious/Pages/_ViewImports.cshtml]
@@ -88,6 +112,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/SU24/PRN221/Project_Cecilious/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SU24/PRN221/Project_Cecilious/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/SU24/PRN221/Project_Cecilious/Pages/Shared/_Layout.cshtml]
