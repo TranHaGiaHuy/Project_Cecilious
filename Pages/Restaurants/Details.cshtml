@@ -244,25 +244,6 @@
                                             <i class="fas fa-user"></i>
                                         </div>
                                     </a>
-                                    <div class="select-rating">
-                                        <p class="align-bottom">Your Rating :</p>
-                                        <div class="rating">
-                                            <input value="@Model.currentUser.Review.Rating"
-                                                   type="number"
-                                                   name="rating"
-                                                   hidden />
-                                            <i class="far fa-star star"
-                                               style="--i: 0"></i>
-                                            <i class="far fa-star star"
-                                               style="--i: 1"></i>
-                                            <i class="far fa-star star"
-                                               style="--i: 2"></i>
-                                            <i class="far fa-star star"
-                                               style="--i: 3"></i>
-                                            <i class="far fa-star star"
-                                               style="--i: 4"></i>
-                                        </div>
-                                    </div>
                                     @*=========== Upload Image ================*@
                                     <form method="post" enctype="multipart/form-data">
                                         <div class="form-group">
@@ -311,16 +292,6 @@
                                             <br>
                                             <div class="">
                                                 <p>@review.User.FullName</p>
-                                                @for(int i = 1; i <=review.Rating; i++)
-                                                {
-                                                    <i class="fas fa-star star"
-                                                       style="--i: 0"></i>
-                                                }
-                                                @for (int i = 0; i < empty; i++)
-                                                {
-                                                    <i class="far fa-star star"
-                                                       style="--i: 0"></i>
-                                                }
                                             </div>
                                         </div>
                                         <div class="reply-time">

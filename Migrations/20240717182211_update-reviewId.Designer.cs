@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Project_Cecilious.Data;
 
@@ -11,9 +12,11 @@ using Project_Cecilious.Data;
 namespace Project_Cecilious.Migrations
 {
     [DbContext(typeof(CeciliousContext))]
-    partial class CeciliousContextModelSnapshot : ModelSnapshot
+    [Migration("20240717182211_update-reviewId")]
+    partial class updatereviewId
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -287,7 +290,8 @@ namespace Project_Cecilious.Migrations
 
                     b.HasIndex("RestaurantId");
 
-                    b.HasIndex("UserId");
+                    b.HasIndex("UserId")
+                        .IsUnique();
 
                     b.ToTable("Review", (string)null);
                 });
@@ -399,8 +403,8 @@ namespace Project_Cecilious.Migrations
                         .IsRequired();
 
                     b.HasOne("Project_Cecilious.Model.User", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId")
+                        .WithOne("Review")
+                        .HasForeignKey("Project_Cecilious.Model.Review", "UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -441,6 +445,9 @@ namespace Project_Cecilious.Migrations
             modelBuilder.Entity("Project_Cecilious.Model.User", b =>
                 {
                     b.Navigation("Account")
+                        .IsRequired();
+
+                    b.Navigation("Review")
                         .IsRequired();
                 });
 #pragma warning restore 612, 618

@@ -23,7 +23,6 @@ namespace Project_Cecilious.Model
         public string? Address { get; set; }
 
 		public virtual Account Account { get; set; } = null!;
-		public virtual Review Review { get; set; } = null!;
 
 	}
 

@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Project_Cecilious.Data;
 
@@ -11,9 +12,11 @@ using Project_Cecilious.Data;
 namespace Project_Cecilious.Migrations
 {
     [DbContext(typeof(CeciliousContext))]
-    partial class CeciliousContextModelSnapshot : ModelSnapshot
+    [Migration("20240717184346_check")]
+    partial class check
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
