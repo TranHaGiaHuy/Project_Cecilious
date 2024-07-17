@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Project_Cecilious.Data;
 using Project_Cecilious.Model;
 
-namespace Project_Cecilious.Pages.Views.Restaurants
+namespace Project_Cecilious.Pages.Restaurants
 {
     public class DeleteModel : PageModel
     {

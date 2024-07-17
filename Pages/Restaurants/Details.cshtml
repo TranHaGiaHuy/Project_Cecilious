@@ -1,5 +1,5 @@
 ﻿@page 
-@model Project_Cecilious.Pages.Views.Restaurants.DetailsModel
+@model Project_Cecilious.Pages.Restaurants.DetailsModel
 
 @{
     ViewData["Title"] = "Details";
@@ -206,7 +206,7 @@
                                             <ul class="row items">
                                                 @foreach (var item in Model.Dishes)
                                                 {
-                                                    <a asp-area="Dishes" asp-page="/DishDetail" asp-route-id="@item.DishId">
+                                                    <a asp-page="/Dishes/Details" asp-route-id="@item.DishId">
                                                     <li data-category="" data-price="" class="col-md-6 pm-right">
                                                         <div class="meals-dt">
                                                             <div class="meal-list">
@@ -215,8 +215,7 @@
                                                                         <img src="@item.Image" class="img-responsive" alt="image" title="image">
                                                                         <div class="caption-meal">
                                                                             <a asp-area="Dishes" asp-page="/DishDetail" asp-route-id="@item.DishId"><h4>@item.DishName</h4></a>
-                                                                            <div class="star">
-                                                                              
+                                                                            <div class="">
                                                                                 <strong class="font-weight-light">@item.DishCategory.Name</strong>
                                                                                 <span>4.5</span>
                                                                             </div>

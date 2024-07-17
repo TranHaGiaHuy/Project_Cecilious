@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SU24\\PRN221\\Project_Cecilious\\Project_Cecilious.csproj": {}
+    "D:\\SU24\\PRN221\\Project_Celicious\\Project_Cecilious.csproj": {}
   },
   "projects": {
-    "D:\\SU24\\PRN221\\Project_Cecilious\\Project_Cecilious.csproj": {
+    "D:\\SU24\\PRN221\\Project_Celicious\\Project_Cecilious.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SU24\\PRN221\\Project_Cecilious\\Project_Cecilious.csproj",
+        "projectUniqueName": "D:\\SU24\\PRN221\\Project_Celicious\\Project_Cecilious.csproj",
         "projectName": "Project_Cecilious",
-        "projectPath": "D:\\SU24\\PRN221\\Project_Cecilious\\Project_Cecilious.csproj",
+        "projectPath": "D:\\SU24\\PRN221\\Project_Celicious\\Project_Cecilious.csproj",
         "packagesPath": "C:\\Users\\giahu\\.nuget\\packages\\",
-        "outputPath": "D:\\SU24\\PRN221\\Project_Cecilious\\obj\\",
+        "outputPath": "D:\\SU24\\PRN221\\Project_Celicious\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\giahu\\AppData\\Roaming\\NuGet\\NuGet.Config",

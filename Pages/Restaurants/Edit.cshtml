@@ -1,5 +1,5 @@
 ﻿@page
-@model Project_Cecilious.Pages.Views.Restaurants.EditModel
+@model Project_Cecilious.Pages.Restaurants.EditModel
 
 @{
     ViewData["Title"] = "Edit";
@@ -15,16 +15,6 @@
         <form method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Restaurant.RestaurantId" />
-            <div class="form-group">
-                <label asp-for="Restaurant.RestaurantCategoryId" class="control-label"></label>
-                <select asp-for="Restaurant.RestaurantCategoryId" class="form-control" asp-items="ViewBag.RestaurantCategoryId"></select>
-                <span asp-validation-for="Restaurant.RestaurantCategoryId" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Restaurant.RestaurantAddressId" class="control-label"></label>
-                <select asp-for="Restaurant.RestaurantAddressId" class="form-control" asp-items="ViewBag.RestaurantAddressId"></select>
-                <span asp-validation-for="Restaurant.RestaurantAddressId" class="text-danger"></span>
-            </div>
             <div class="form-group">
                 <label asp-for="Restaurant.RestaurantName" class="control-label"></label>
                 <input asp-for="Restaurant.RestaurantName" class="form-control" />
@@ -49,6 +39,31 @@
                 <label asp-for="Restaurant.EndTime" class="control-label"></label>
                 <input asp-for="Restaurant.EndTime" class="form-control" />
                 <span asp-validation-for="Restaurant.EndTime" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Restaurant.Logo" class="control-label"></label>
+                <input asp-for="Restaurant.Logo" class="form-control" />
+                <span asp-validation-for="Restaurant.Logo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Restaurant.Background" class="control-label"></label>
+                <input asp-for="Restaurant.Background" class="form-control" />
+                <span asp-validation-for="Restaurant.Background" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Restaurant.Status" class="control-label"></label>
+                <input asp-for="Restaurant.Status" class="form-control" />
+                <span asp-validation-for="Restaurant.Status" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Restaurant.RestaurantCategoryId" class="control-label"></label>
+                <select asp-for="Restaurant.RestaurantCategoryId" class="form-control" asp-items="ViewBag.RestaurantCategoryId"></select>
+                <span asp-validation-for="Restaurant.RestaurantCategoryId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Restaurant.RestaurantAddressId" class="control-label"></label>
+                <select asp-for="Restaurant.RestaurantAddressId" class="form-control" asp-items="ViewBag.RestaurantAddressId"></select>
+                <span asp-validation-for="Restaurant.RestaurantAddressId" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <input type="submit" value="Save" class="btn btn-primary" />

@@ -1,5 +1,5 @@
 ﻿@page
-@model Project_Cecilious.Pages.Views.Restaurants.IndexModel
+@model Project_Cecilious.Pages.Restaurants.IndexModel
 
 @{
     ViewData["Title"] = "Index";
@@ -30,6 +30,15 @@
                 @Html.DisplayNameFor(model => model.Restaurant[0].EndTime)
             </th>
             <th>
+                @Html.DisplayNameFor(model => model.Restaurant[0].Logo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Restaurant[0].Background)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Restaurant[0].Status)
+            </th>
+            <th>
                 @Html.DisplayNameFor(model => model.Restaurant[0].RestaurantAddress)
             </th>
             <th>
@@ -55,6 +64,15 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.EndTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Logo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Background)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.RestaurantAddress.RestaurantAddressId)
