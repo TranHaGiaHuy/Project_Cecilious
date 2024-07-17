@@ -261,20 +261,24 @@
                                                style="--i: 4"></i>
                                         </div>
                                     </div>
-                                    <form>
-                                        <textarea class="description-area" name="post"
-                                                  placeholder="Please describe the reason for your rating to help the restaurant (150 words)">@Model.currentUser.Review.Description</textarea>
+                                    @*=========== Upload Image ================*@
+                                    <form method="post" enctype="multipart/form-data">
+                                        <div class="form-group">
+                                            <label asp-for="Review.Description" class="control-label"></label>
+                                            <textarea asp-for="Review.Description" class="description-area form-control" name="Description"
+                                                      placeholder="Please describe the reason for your rating to help the restaurant (150 words)"></textarea>
+                                        </div>
                                         <div class="d-flex justify-content-around">
-                                            <div class="add-image">
-                                                <input type="file" id="file">
-                                                <label for="file"><i class="far fa-image"></i> Add Photo</label>
+                                            <div class="form-group">
+                                                <label asp-for="Review.Image" class="control-label"><i class="far fa-image"></i> Add Image URL</label>
+                                                <input asp-for="Review.Image" type="text" name="Image" class="form-control" id="imageInput" oninput="updateImagePreview()">
                                             </div>
                                             <div class="images">
                                                 <div class="select-images">
                                                     <ul>
                                                         <li class="image-select">
-                                                            <img src="@Model.currentUser.Review.Image" alt="">
-                                                            <div class="close-icon">
+                                                            <img id="imagePreview" src="" alt="Image preview will appear here" style="max-width: 100%; height: auto; display: none;">
+                                                            <div class="close-icon" style="display:none;" id="closeIcon" onclick="removeImagePreview()">
                                                                 <i class="fas fa-window-close"></i>
                                                             </div>
                                                         </li>
@@ -286,11 +290,11 @@
                                             </div>
                                         </div>
                                     </form>
-
+                                    @* ========================================== *@
                                 </div>
                             </div>
                             <h3 class="mt-20 font-weight-bold">List of comments: </h3>
-                            @* ========================================== *@
+                           
                             @if (Model.listReview != null && Model.listReview.Count!=0)
                             {
                                 
@@ -301,7 +305,6 @@
                                     <div class="rating-1">
                                         <div class="user-detail-heading">
                                             <a href="user_profile_view.html"><img src="images/recipe-details/comment-5.png" alt=""></a>
-                                            <h4>@review.User.FullName</h4>
                                           
                                             <br>
                                             <div class="">
@@ -387,3 +390,35 @@
 
 <!--partner-restaurant end-->
 <!--footer start-->
+@*Review img*@
+<script>
+    function updateImagePreview() {
+        const imageInput = document.getElementById('imageInput');
+        const imagePreview = document.getElementById('imagePreview');
+        const closeIcon = document.getElementById('closeIcon');
+
+        console.log('Image URL:', imageInput.value);
+
+        if (imageInput.value) {
+            imagePreview.src = imageInput.value;
+            imagePreview.style.display = 'block';
+            closeIcon.style.display = 'block';
+        } else {
+            imagePreview.style.display = 'none';
+            closeIcon.style.display = 'none';
+        }
+    }
+
+    function removeImagePreview() {
+        const imageInput = document.getElementById('imageInput');
+        const imagePreview = document.getElementById('imagePreview');
+        const closeIcon = document.getElementById('closeIcon');
+
+        console.log('Removing image preview');
+
+        imageInput.value = '';
+        imagePreview.src = '';
+        imagePreview.style.display = 'none';
+        closeIcon.style.display = 'none';
+    }
+</script>
