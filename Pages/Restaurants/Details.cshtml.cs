@@ -36,7 +36,7 @@ namespace Project_Cecilious.Pages.Restaurants
         public double totalReviewPoint;
         public void GetCurrentUser(int id)
         {
-            currentUser = _context.Users.Include(c => c.Review).FirstOrDefault(u => u.UserId == id);
+            currentUser = _context.Users.Where(u => u.UserId == id).Include(c => Review).SingleOrDefault();
         }
         public void GetListReviews()
         {
@@ -89,7 +89,7 @@ namespace Project_Cecilious.Pages.Restaurants
                 }
                 else
                 {
-                    GetCurrentUser(1);
+                    //GetCurrentUser(1);
                     GetListRestaurant();
                     GetListDishes(Restaurant.RestaurantId);
                     GetListReviews();
@@ -108,7 +108,7 @@ namespace Project_Cecilious.Pages.Restaurants
 
         public async Task<IActionResult> OnPostAsync(int id)
         {    
-            var currentUser = _context.Users.Where(u => u.UserId == 1).FirstOrDefault();
+            var currentUser = _context.Users.Where(u => u.UserId == 2).FirstOrDefault();
 
             var checkReview = _context.Reviews.Where(v => v.UserId == currentUser.UserId && v.RestaurantId == id).FirstOrDefault();
 

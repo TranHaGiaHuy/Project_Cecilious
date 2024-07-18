@@ -34,9 +34,6 @@ namespace Project_Cecilious.Data
             modelBuilder.Entity<Dish>().ToTable("Dish");
             modelBuilder.Entity<DishCategory>().ToTable("DishCategory");
 
-
-            modelBuilder.Entity<Review>()
-       .HasKey(r => new { r.UserId, r.RestaurantId });
         }
     }
 }

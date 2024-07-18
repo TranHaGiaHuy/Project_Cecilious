@@ -258,11 +258,11 @@ namespace Project_Cecilious.Migrations
 
             modelBuilder.Entity("Project_Cecilious.Model.Review", b =>
                 {
-                    b.Property<int>("UserId")
+                    b.Property<int>("ReviewId")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    b.Property<int>("RestaurantId")
-                        .HasColumnType("int");
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ReviewId"));
 
                     b.Property<DateTime>("CreateTime")
                         .HasColumnType("datetime2");
@@ -277,12 +277,17 @@ namespace Project_Cecilious.Migrations
                     b.Property<float>("Rating")
                         .HasColumnType("real");
 
-                    b.HasKey("UserId", "RestaurantId");
+                    b.Property<int>("RestaurantId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("ReviewId");
 
                     b.HasIndex("RestaurantId");
 
-                    b.HasIndex("UserId")
-                        .IsUnique();
+                    b.HasIndex("UserId");
 
                     b.ToTable("Review", (string)null);
                 });
@@ -394,8 +399,8 @@ namespace Project_Cecilious.Migrations
                         .IsRequired();
 
                     b.HasOne("Project_Cecilious.Model.User", "User")
-                        .WithOne("Review")
-                        .HasForeignKey("Project_Cecilious.Model.Review", "UserId")
+                        .WithMany()
+                        .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -436,9 +441,6 @@ namespace Project_Cecilious.Migrations
             modelBuilder.Entity("Project_Cecilious.Model.User", b =>
                 {
                     b.Navigation("Account")
-                        .IsRequired();
-
-                    b.Navigation("Review")
                         .IsRequired();
                 });
 #pragma warning restore 612, 618

@@ -3,32 +3,36 @@
   "WorkspaceRootPath": "D:\\SU24\\PRN221\\Project_Celicious\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{62872798-CBA8-402A-A583-FF07B6B83AC4}|Project_Cecilious.csproj|D:\\SU24\\PRN221\\Project_Celicious\\pages\\restaurants\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{62872798-CBA8-402A-A583-FF07B6B83AC4}|Project_Cecilious.csproj|solutionrelative:pages\\restaurants\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62872798-CBA8-402A-A583-FF07B6B83AC4}|Project_Cecilious.csproj|d:\\su24\\prn221\\project_celicious\\pages\\restaurants\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62872798-CBA8-402A-A583-FF07B6B83AC4}|Project_Cecilious.csproj|solutionrelative:pages\\restaurants\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{62872798-CBA8-402A-A583-FF07B6B83AC4}|Project_Cecilious.csproj|d:\\su24\\prn221\\project_celicious\\model\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62872798-CBA8-402A-A583-FF07B6B83AC4}|Project_Cecilious.csproj|solutionrelative:model\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62872798-CBA8-402A-A583-FF07B6B83AC4}|Project_Cecilious.csproj|d:\\su24\\prn221\\project_celicious\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{62872798-CBA8-402A-A583-FF07B6B83AC4}|Project_Cecilious.csproj|D:\\SU24\\PRN221\\Project_Celicious\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62872798-CBA8-402A-A583-FF07B6B83AC4}|Project_Cecilious.csproj|solutionrelative:model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62872798-CBA8-402A-A583-FF07B6B83AC4}|Project_Cecilious.csproj|d:\\su24\\prn221\\project_celicious\\pages\\dishes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{62872798-CBA8-402A-A583-FF07B6B83AC4}|Project_Cecilious.csproj|D:\\SU24\\PRN221\\Project_Celicious\\pages\\dishes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{62872798-CBA8-402A-A583-FF07B6B83AC4}|Project_Cecilious.csproj|solutionrelative:pages\\dishes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62872798-CBA8-402A-A583-FF07B6B83AC4}|Project_Cecilious.csproj|d:\\su24\\prn221\\project_celicious\\pages\\dishes\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{62872798-CBA8-402A-A583-FF07B6B83AC4}|Project_Cecilious.csproj|D:\\SU24\\PRN221\\Project_Celicious\\pages\\dishes\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62872798-CBA8-402A-A583-FF07B6B83AC4}|Project_Cecilious.csproj|solutionrelative:pages\\dishes\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62872798-CBA8-402A-A583-FF07B6B83AC4}|Project_Cecilious.csproj|d:\\su24\\prn221\\project_celicious\\pages\\restaurants\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{62872798-CBA8-402A-A583-FF07B6B83AC4}|Project_Cecilious.csproj|D:\\SU24\\PRN221\\Project_Celicious\\pages\\restaurants\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{62872798-CBA8-402A-A583-FF07B6B83AC4}|Project_Cecilious.csproj|solutionrelative:pages\\restaurants\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62872798-CBA8-402A-A583-FF07B6B83AC4}|Project_Cecilious.csproj|d:\\su24\\prn221\\project_celicious\\pages\\restaurants\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{62872798-CBA8-402A-A583-FF07B6B83AC4}|Project_Cecilious.csproj|D:\\SU24\\PRN221\\Project_Celicious\\pages\\restaurants\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62872798-CBA8-402A-A583-FF07B6B83AC4}|Project_Cecilious.csproj|solutionrelative:pages\\restaurants\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62872798-CBA8-402A-A583-FF07B6B83AC4}|Project_Cecilious.csproj|d:\\su24\\prn221\\project_celicious\\pages\\restaurants\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{62872798-CBA8-402A-A583-FF07B6B83AC4}|Project_Cecilious.csproj|solutionrelative:pages\\restaurants\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,45 +42,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Review.cs",
-              "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Celicious\\Model\\Review.cs",
-              "RelativeDocumentMoniker": "Model\\Review.cs",
-              "ToolTip": "D:\\SU24\\PRN221\\Project_Celicious\\Model\\Review.cs",
-              "RelativeToolTip": "Model\\Review.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T02:39:34.3Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Celicious\\Model\\User.cs",
-              "RelativeDocumentMoniker": "Model\\User.cs",
-              "ToolTip": "D:\\SU24\\PRN221\\Project_Celicious\\Model\\User.cs",
-              "RelativeToolTip": "Model\\User.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAA1wAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T02:39:33.275Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Details.cshtml.cs",
-              "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Celicious\\Pages\\Dishes\\Details.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Dishes\\Details.cshtml.cs",
-              "ToolTip": "D:\\SU24\\PRN221\\Project_Celicious\\Pages\\Dishes\\Details.cshtml.cs",
-              "RelativeToolTip": "Pages\\Dishes\\Details.cshtml.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAswDwAAAAEAAAA",
+              "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Celicious\\Pages\\Restaurants\\Details.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Restaurants\\Details.cshtml.cs",
+              "ToolTip": "D:\\SU24\\PRN221\\Project_Celicious\\Pages\\Restaurants\\Details.cshtml.cs",
+              "RelativeToolTip": "Pages\\Restaurants\\Details.cshtml.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAiwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T02:33:27.101Z",
+              "WhenOpened": "2024-07-18T02:43:50.687Z",
               "EditorCaption": ""
             },
             {
@@ -88,12 +66,45 @@
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Review.cs",
+              "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Celicious\\Model\\Review.cs",
+              "RelativeDocumentMoniker": "Model\\Review.cs",
+              "ToolTip": "D:\\SU24\\PRN221\\Project_Celicious\\Model\\Review.cs",
+              "RelativeToolTip": "Model\\Review.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAA3wCIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T02:39:34.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Celicious\\Model\\User.cs",
+              "RelativeDocumentMoniker": "Model\\User.cs",
+              "ToolTip": "D:\\SU24\\PRN221\\Project_Celicious\\Model\\User.cs",
+              "RelativeToolTip": "Model\\User.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA1wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T02:39:33.275Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Details.cshtml.cs",
+              "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Celicious\\Pages\\Dishes\\Details.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Dishes\\Details.cshtml.cs",
+              "ToolTip": "D:\\SU24\\PRN221\\Project_Celicious\\Pages\\Dishes\\Details.cshtml.cs",
+              "RelativeToolTip": "Pages\\Dishes\\Details.cshtml.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAswDwAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T02:33:27.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Celicious\\Pages\\Restaurants\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Restaurants\\Index.cshtml.cs",
@@ -101,12 +112,11 @@
               "RelativeToolTip": "Pages\\Restaurants\\Index.cshtml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T02:33:37.188Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-18T02:33:37.188Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Celicious\\Pages\\Restaurants\\Index.cshtml",
               "RelativeDocumentMoniker": "Pages\\Restaurants\\Index.cshtml",
@@ -114,12 +124,11 @@
               "RelativeToolTip": "Pages\\Restaurants\\Index.cshtml",
               "ViewState": "AQIAADkAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-18T02:33:34.115Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-18T02:33:34.115Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Celicious\\Pages\\Dishes\\Details.cshtml",
               "RelativeDocumentMoniker": "Pages\\Dishes\\Details.cshtml",
@@ -127,12 +136,11 @@
               "RelativeToolTip": "Pages\\Dishes\\Details.cshtml",
               "ViewState": "AQIAACoAAAAAAAAAAAAAAEMAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-18T02:32:49.676Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-18T02:32:49.676Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Celicious\\Pages\\Restaurants\\Details.cshtml",
               "RelativeDocumentMoniker": "Pages\\Restaurants\\Details.cshtml",
