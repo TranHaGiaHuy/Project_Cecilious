@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5ISEcRTzCYw+xpbu4KrKFhuXbQgOqxO5aV3za0xgFamwzTbYxHgs349Khw0yuoWJP9/2bQilG7Et4uD+KbSNkg==",
+  "dgSpecHash": "817tU/AZKq1FjGcKuPQw0FrD/civbQJ3gpfEGFbw+niKaToB2dAHhHYms07vB0nic1L74ESG5erv40yt/9IAIg==",
   "success": true,
-  "projectFilePath": "D:\\SU24\\PRN221\\Project_Celicious\\Project_Celicious.csproj",
+  "projectFilePath": "D:\\SU24\\PRN221\\Project_Celicious\\Project_Cecilious.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\giahu\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\giahu\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

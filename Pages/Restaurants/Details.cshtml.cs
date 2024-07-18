@@ -101,7 +101,6 @@ namespace Project_Cecilious.Pages.Restaurants
                     totalReviewPoint /= listReview.Count;
                     totalReviewPoint = Math.Round(totalReviewPoint, 1);
                 }
-
                 return Page();
             }
 

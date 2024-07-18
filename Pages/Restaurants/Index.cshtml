@@ -1,4 +1,5 @@
 ﻿@page
+@using Project_Cecilious.Model
 @model Project_Cecilious.Pages.Restaurants.IndexModel
 
 @{
@@ -6,86 +7,208 @@
     Layout = "~/Pages/Shared/_Layout.cshtml";
 }
 
-<h1>Index</h1>
+@* 
+<form method="post">
+    <!-- Checkbox cho danh mục nhà hàng -->
+	<input type="checkbox" name="selectedResCategories" value="1" /> Category 1
+	<input type="checkbox" name="selectedResCategories" value="2" /> Category 2
+	<input type="checkbox" name="selectedResCategories" value="3" /> Category 3
+    <!-- Thêm nhiều checkbox nếu cần -->
 
-<p>
-    <a asp-page="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Restaurant[0].RestaurantName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Restaurant[0].Phone)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Restaurant[0].Description)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Restaurant[0].StartTime)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Restaurant[0].EndTime)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Restaurant[0].Logo)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Restaurant[0].Background)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Restaurant[0].Status)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Restaurant[0].RestaurantAddress)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Restaurant[0].RestaurantCategory)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model.Restaurant) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.RestaurantName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Phone)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Description)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.StartTime)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.EndTime)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Logo)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Background)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Status)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.RestaurantAddress.RestaurantAddressId)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.RestaurantCategory.RestaurantCategoryId)
-            </td>
-            <td>
-                <a asp-page="./Edit" asp-route-id="@item.RestaurantId">Edit</a> |
-                <a asp-page="./Details" asp-route-id="@item.RestaurantId">Details</a> |
-                <a asp-page="./Delete" asp-route-id="@item.RestaurantId">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+
+    <button type="submit">Apply Filters</button>
+</form> *@
+
+
+<section class="title-bar">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="left-title-text">
+					<h3>Restaurants</h3>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="right-title-text">
+					<ul>
+						<li class="breadcrumb-item"><a asp-page="/Index">Home</a></li>
+						<li class="breadcrumb-item active" aria-current="page">Restaurants</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--title-bar end-->
+<!--meals start-->
+
+<section class="all-partners">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3 col-md-4">
+				<form method="post">
+					<div class="filters partner-bottom">
+						<div class="filter-heading">
+							<h3>Filters</h3>
+						</div>
+						
+						<div class="accordion" id="accordiontwo">
+							<div class="location">
+								<button class="filter-dropdown" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">Categories</button>
+								<div id="collapseTwo" class="collapse show" data-parent="#accordiontwo">
+									<div class="filter-checkbox">
+										@if (Model.RestaurantCategories != null)
+										{@foreach (var cate in Model.RestaurantCategories)
+											{
+												<p>
+													<input type="checkbox" id="@cate.RestaurantCategoryId" name="selectedResCategories" value="@cate.RestaurantCategoryId">
+													<label for="@cate.RestaurantCategoryId">@cate.Name</label>
+												</p>
+											}
+										}
+										else if (ViewBag.RestaurantCategories != null)
+										{
+											@foreach (var cate in ViewBag.RestaurantCategories)
+											{
+												<p>
+													<input type="checkbox" id="@cate.RestaurantCategoryId" name="selectedResCategories" value="@cate.RestaurantCategoryId">
+													<label for="@cate.RestaurantCategoryId">@cate.Name</label>
+												</p>
+											}
+										}
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="accordion" id="accordionsix">
+							<div class="location">
+								<button class="filter-dropdown" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">Rating</button>
+								<div id="collapseSix" class="collapse show" data-parent="#accordionsix">
+									<div class="filter-checkbox">
+										
+										@for (int i = 0; i < 5; i++)
+										{
+											var index = 5 - i;
+											var c = "";
+											if (Model.selectedRating != null)
+											{
+												c = Model.selectedRating==index ? "checked" : "";
+											}
+											<p>
+												<input type="radio" id="rate+@i" name="selectedRating" value="@index" @c>
+												<label for="rate+@i" class="rating-color">
+													@for (int j = 0; j < (5-i); j++)
+													{
+														<i class="fas fa-star"></i>
+													}
+												</label>
+											</p>
+										}
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<button type="submit" class="btn btn-success">Search</button>
+					<button type="reset" class="btn btn-danger">Reset</button>
+				</form>
+
+			</div>
+
+			@* ================================================================================================================================== *@
+			<div class="col-lg-9 col-md-8">
+				<div class="col-lg-12 col-md-12 m-left m-right">
+					<div class="all-meals-show">
+						<div class="new-heading">
+							<h1> All Meals </h1>
+							<div class="loc-title">
+								Meals In Your Area
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row list">
+					@foreach (var res in Model.Restaurants)
+					{
+						<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 item">
+							<div class="all-meal">
+								<div class="top">
+									<a asp-page="./Details" asp-route-id="@res.RestaurantId"><div class="bg-gradient"></div></a>
+									<div class="top-img">
+										<img src="@res.Background" alt="">
+									</div>
+									<div class="logo-img">
+										<img src="@res.Logo" alt="">
+									</div>
+									<div class="top-text">
+										<div class="heading"><h4><a asp-page="./Details" asp-route-id="@res.RestaurantId">@res.RestaurantName</a></h4></div>
+										<div class="sub-heading">
+											<h5><a asp-page="./Details" asp-route-id="@res.RestaurantId">@res.RestaurantCategory.Name</a></h5>
+										</div>
+									</div>
+								</div>
+								<div class="bottom">
+									<div class="bottom-text">
+										<div class="time"><i class="far fa-clock"></i>Start Time: @res.StartTime </div>
+										<div class="time"><i class="far fa-clock"></i>End Time	: @res.EndTime</div>
+										<div class="star">
+											@{
+												int totalPoint = (int)Model.listTotalRating[res.RestaurantId + ""];
+											}
+											@for (int i = 0; i < totalPoint; i++)
+											{
+												<i class="fas fa-star star"></i>
+											}
+											@for (int i = 0; i < 5 - totalPoint; i++)
+											{
+												<i class="far fa-star star"></i>
+											}
+											@if (res.Review.Count == 0)
+											{
+												<span>No Review</span>
+											}
+											else
+											{
+												<span>@totalPoint</span>
+												<span>(@res.Review.Count)</span>
+
+											}
+
+											<div class="comments"><a href="#"><i class="fas fa-comment-alt"></i>@res.Review.Count</a></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					}
+					
+					
+				</div>
+				<div class="row">
+					<div class="col-lg-12 col-md-12 ">
+						<div class="main-p-pagination m-top">
+							<nav aria-label="Page navigation example">
+								<ul class="pagination listPage">
+									@* <li class="page-item backPage">
+										<a class="page-link" href="#" aria-label="Previous">
+											<i class="fas fa-chevron-left"></i>
+										</a>
+									</li>
+									
+									<li class="page-item nextPage">
+										<a class="page-link " href="#" aria-label="Next">
+											<i class="fas fa-chevron-right"></i>
+										</a>
+									</li> *@
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+

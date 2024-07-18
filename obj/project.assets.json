@@ -8763,9 +8763,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SU24\\PRN221\\Project_Celicious\\Project_Celicious.csproj",
-      "projectName": "Project_Celicious",
-      "projectPath": "D:\\SU24\\PRN221\\Project_Celicious\\Project_Celicious.csproj",
+      "projectUniqueName": "D:\\SU24\\PRN221\\Project_Celicious\\Project_Cecilious.csproj",
+      "projectName": "Project_Cecilious",
+      "projectPath": "D:\\SU24\\PRN221\\Project_Celicious\\Project_Cecilious.csproj",
       "packagesPath": "C:\\Users\\giahu\\.nuget\\packages\\",
       "outputPath": "D:\\SU24\\PRN221\\Project_Celicious\\obj\\",
       "projectStyle": "PackageReference",

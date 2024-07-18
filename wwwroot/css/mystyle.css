@@ -90,15 +90,11 @@ a, .btn {
         color: none;
     }
 
-    a:visited {
-        color: none;
-        background: none;
-    }
-
     a:hover {
         color: none;
         text-decoration: none !important;
     }
+
 
 a, button, input {
     outline: 1px #fff !important;
@@ -1406,7 +1402,7 @@ and something more appropriate for display headings */
     margin-bottom: 17px;
 }
 
-    .star span {
+    .star span{
         padding: 5px 10px;
         font-size: 12px;
         color: #fff;
@@ -1415,7 +1411,15 @@ and something more appropriate for display headings */
         border-radius: 50px;
         margin-left: 10px;
     }
-
+    .star .numb {
+        padding: 0 0;
+        font-size: 12px;
+        color: #000;
+        font-weight: 400;
+        background: none;
+        border-radius: 0px;
+        margin-left: 10px;
+    }
 .comments {
     text-align: right;
     font-size: 14px;
@@ -1439,6 +1443,7 @@ and something more appropriate for display headings */
 
 .meal-btn {
     margin-top: 66px;
+    margin-bottom: 66px;
     text-align: center;
 }
 
@@ -1904,9 +1909,9 @@ and something more appropriate for display headings */
         background-color: #fff;
     }
 
-        .language .dropdown-menu a:hover {
-            color: #000;
-        }
+    .language .dropdown-menu meal-btn {
+        color: #000;
+    }
 
 .l-btn-link {
     background: #1e1e1e;
@@ -8600,6 +8605,7 @@ and something more appropriate for display headings */
     padding: 17px 20px;
     border-radius: 3px;
     margin-top: 30px;
+
     min-height: 50px;
 }
 
@@ -9407,3 +9413,5 @@ and something more appropriate for display headings */
         margin-top: 25px;
         margin-bottom: 5px;
     }
+
+

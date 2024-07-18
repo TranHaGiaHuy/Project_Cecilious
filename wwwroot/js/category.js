@@ -1,4 +1,4 @@
-﻿(function () {
+﻿  (function () {
 
 	let field = document.querySelector('.items');
 	let li = Array.from(field.children);
@@ -38,7 +38,7 @@
 			}
 		}
 	}
-
+/*
 	function SortProduct() {
 		let select = document.getElementById('select');
 		let ar = [];
@@ -79,9 +79,9 @@
 			while (field.firstChild) { field.removeChild(field.firstChild); }
 			field.append(...sortli);
 		}
-	}
+	}*/
 
 	new FilterProduct().run();
-	new SortProduct().run();
+	/*new SortProduct().run();*/
 }
 )();

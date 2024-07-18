@@ -20,15 +20,27 @@ namespace Project_Cecilious.Pages.Dishes
         }
 
         public Dish Dish { get; set; } = default!;
+		public Restaurant currentRestaurant { get; set; } = default!;
 
-        public async Task<IActionResult> OnGetAsync(int? id)
+		public IList<DishCategory> Cates { get; set; } = default!;
+        public IList<Dish> Dishes { get; set; } = default!;
+
+		public IList<Restaurant> listRes;
+
+		public double totalReviewPoint;
+
+
+		public IList<Review> listReview;
+
+		public async Task<IActionResult> OnGetAsync(int? id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var dish = await _context.Dishes.FirstOrDefaultAsync(m => m.DishId == id);
+            var dish = await _context.Dishes.Include(d=>d.Restaurant).FirstOrDefaultAsync(m => m.DishId == id);
+            
             if (dish == null)
             {
                 return NotFound();
@@ -36,8 +48,22 @@ namespace Project_Cecilious.Pages.Dishes
             else
             {
                 Dish = dish;
-            }
+                Dish.DishImages = await _context.DishImages.Where(a => a.DishId == id).ToListAsync();
+				currentRestaurant = _context.Restaurants.FirstOrDefault(b=>b.RestaurantId == Dish.RestaurantId);
+				Dish.Restaurant.RestaurantAddress =  _context.RestaurantAddresses.FirstOrDefault(c => c.RestaurantAddressId == currentRestaurant.RestaurantAddressId);
+                listReview = _context.Reviews.Where(a => a.RestaurantId == currentRestaurant.RestaurantId).ToList();
+				foreach (var item in listReview)
+				{
+					item.User = _context.Users.FirstOrDefault(fr => fr.UserId == item.UserId);
+					totalReviewPoint += item.Rating;
+				}
+				totalReviewPoint /= listReview.Count;
+			}
             return Page();
         }
     }
+   /* var currentRestaurent = await _context.Restaurants.FirstOrDefaultAsync(m => m.RestaurantId == id);
+    currentRestaurent.RestaurantAddress = await _context.RestaurantAddresses.FirstOrDefaultAsync(a => a.RestaurantAddressId == currentRestaurent.RestaurantAddressId);
+    currentRestaurent.RestaurantCategory = await _context.RestaurantCategories.FirstOrDefaultAsync(a => a.RestaurantCategoryId == currentRestaurent.RestaurantCategoryId);
+    currentRestaurent.RestaurantImages = await _context.RestaurantImages.Where(a => a.RestaurantId != currentRestaurent.RestaurantId).ToListAsync();*/
 }

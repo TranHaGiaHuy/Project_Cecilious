@@ -173,7 +173,7 @@
 
                         <div class="tab-pane" id="menu">
                             <div class="restaurants-order-bg m-bottom">
-                                <h4>Restaurant Order Online Meals</h4>
+                                <h4>Restaurant Menu</h4>
                                 <div class="order-tabs">
                                     <ul class="nav nav-tabs indicator">
                                         <li data-filter="all" class="active">
@@ -187,7 +187,7 @@
                                         @foreach (var cate in Model.Cates)
                                         {
                                             <li data-filter="@cate.Name">
-                                                <a class="hoverCata" href="" data-toggle="tab" class="active">
+                                                <a class="hoverCata" data-toggle="tab" class="active">
                                                     <div class="meal-tab-icons">
                                                         <img src="/images/homepage/quick-searches/meal-2.svg" class="img-responsive" alt="">
                                                         <p>@cate.Name</p>
@@ -199,13 +199,14 @@
                                 </div>
                                 <div class="tab-pane">
                                     <div class="all-meals-tab">
-                                        <h6>List of Dishes</h6>
+                                        <hr />
                                         <div class="all-meal-dt">
                                             <ul class="row items">
                                                 @foreach (var item in Model.Dishes)
                                                 {
-                                                    <a asp-page="/Dishes/Details" asp-route-id="@item.DishId">
                                                     <li data-category="" data-price="" class="col-md-6 pm-right">
+                                                    <a asp-page="/Dishes/Details" asp-route-id="@item.DishId">
+                                                        <strong class="font-weight-light">@item.DishCategory.Name</strong>
                                                         <div class="meals-dt">
                                                             <div class="meal-list">
                                                                 <ul class="list-unstyled">
@@ -214,7 +215,6 @@
                                                                         <div class="caption-meal">
                                                                             <a asp-area="Dishes" asp-page="/DishDetail" asp-route-id="@item.DishId"><h4>@item.DishName</h4></a>
                                                                             <div class="">
-                                                                                <strong class="font-weight-light">@item.DishCategory.Name</strong>
                                                                                 <span>4.5</span>
                                                                             </div>
                                                                             <p>@item.Price</p>
@@ -223,8 +223,9 @@
                                                                 </ul>
                                                             </div>
                                                         </div>
+                                                        </a>
+
                                                     </li>
-                                                    </a>
                                                 }
                                             </ul>
                                         </div>
@@ -359,10 +360,10 @@
                     <h4>Popular Restaurents </h4>
                     <div class="popular-restaurants-items">
                         <ul class="list-unstyled">
-                            @foreach (var item in Model.listRes)
+                            @foreach (var item in Model.listRes.Take(4))
                             {
                                 <li>
-                                    <a href="restaurant_detail.html"><img src="@item.Logo" class="img-responsive" alt="image" title="image"></a>
+                                    <a asp-page="./Details" asp-route-id="@item.RestaurantId"><img src="@item.Logo" class="img-responsive" alt="image" title="image"></a>
                                     <div class="caption">
                                         <a href="restaurant_detail.html"><h4>@item.RestaurantName</h4></a>
                                         <p>@item.RestaurantAddress.District, @item.RestaurantAddress.Province</p>

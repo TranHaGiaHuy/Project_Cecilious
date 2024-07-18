@@ -1,0 +1,505 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\SU24\\PRN221\\Project_Celicious\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Cecilious.csproj|d:\\su24\\prn221\\project_celicious\\pages\\restaurants\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Cecilious.csproj|solutionrelative:pages\\restaurants\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|D:\\SU24\\PRN221\\Project_Celicious\\pages\\dishes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|solutionrelative:pages\\dishes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|D:\\SU24\\PRN221\\Project_Celicious\\model\\dishimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|solutionrelative:model\\dishimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|D:\\SU24\\PRN221\\Project_Celicious\\pages\\restaurants\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|solutionrelative:pages\\restaurants\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|D:\\SU24\\PRN221\\Project_Celicious\\wwwroot\\js\\sorting.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|solutionrelative:wwwroot\\js\\sorting.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|D:\\SU24\\PRN221\\Project_Celicious\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|D:\\SU24\\PRN221\\Project_Celicious\\pages\\restaurants\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|solutionrelative:pages\\restaurants\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|D:\\SU24\\PRN221\\Project_Celicious\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|D:\\SU24\\PRN221\\Project_Celicious\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|solutionrelative:pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|D:\\SU24\\PRN221\\Project_Celicious\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|D:\\SU24\\PRN221\\Project_Celicious\\pages\\shared\\_productlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|solutionrelative:pages\\shared\\_productlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|D:\\SU24\\PRN221\\Project_Celicious\\pages\\shared\\_validationscriptspartial - copy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|solutionrelative:pages\\shared\\_validationscriptspartial - copy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|D:\\SU24\\PRN221\\Project_Celicious\\pages\\restaurants\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|solutionrelative:pages\\restaurants\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|D:\\SU24\\PRN221\\Project_Celicious\\pages\\restaurants\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|solutionrelative:pages\\restaurants\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|D:\\SU24\\PRN221\\Project_Celicious\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|solutionrelative:pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|D:\\SU24\\PRN221\\Project_Celicious\\wwwroot\\css\\mystyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|solutionrelative:wwwroot\\css\\mystyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|D:\\SU24\\PRN221\\Project_Celicious\\model\\restaurantcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|solutionrelative:model\\restaurantcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|D:\\SU24\\PRN221\\Project_Celicious\\model\\restaurantimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|solutionrelative:model\\restaurantimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|D:\\SU24\\PRN221\\Project_Celicious\\model\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|solutionrelative:model\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|D:\\SU24\\PRN221\\Project_Celicious\\pages\\dishes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|solutionrelative:pages\\dishes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|D:\\SU24\\PRN221\\Project_Celicious\\wwwroot\\js\\pagination.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|solutionrelative:wwwroot\\js\\pagination.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|D:\\SU24\\PRN221\\Project_Celicious\\pages\\dishes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|solutionrelative:pages\\dishes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|D:\\SU24\\PRN221\\Project_Celicious\\pages\\dishes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|solutionrelative:pages\\dishes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|D:\\SU24\\PRN221\\Project_Celicious\\wwwroot\\js\\dashboard-tabs-reload.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|solutionrelative:wwwroot\\js\\dashboard-tabs-reload.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|D:\\SU24\\PRN221\\Project_Celicious\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|solutionrelative:pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|D:\\SU24\\PRN221\\Project_Celicious\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|solutionrelative:pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|D:\\SU24\\PRN221\\Project_Celicious\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|solutionrelative:pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|D:\\SU24\\PRN221\\Project_Celicious\\pages\\restaurants\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|solutionrelative:pages\\restaurants\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|D:\\SU24\\PRN221\\Project_Celicious\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|D:\\SU24\\PRN221\\Project_Celicious\\model\\dishcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C98DAF2-FA69-4135-AC69-A94B8A6A23F2}|Project_Celicious.csproj|solutionrelative:model\\dishcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 133,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "site.js",
+              "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Celicious\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
+              "ToolTip": "D:\\SU24\\PRN221\\Project_Celicious\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "wwwroot\\js\\site.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-07-17T19:22:14.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "sorting.js",
+              "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Celicious\\wwwroot\\js\\sorting.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\sorting.js",
+              "ToolTip": "D:\\SU24\\PRN221\\Project_Celicious\\wwwroot\\js\\sorting.js",
+              "RelativeToolTip": "wwwroot\\js\\sorting.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-07-17T19:20:52.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Celicious\\Pages\\Restaurants\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Restaurants\\Index.cshtml",
+              "ToolTip": "D:\\SU24\\PRN221\\Project_Celicious\\Pages\\Restaurants\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Restaurants\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-17T16:05:48.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Celicious\\Pages\\Restaurants\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Restaurants\\Index.cshtml.cs",
+              "ToolTip": "D:\\SU24\\PRN221\\Project_Celicious\\Pages\\Restaurants\\Index.cshtml.cs",
+              "RelativeToolTip": "Pages\\Restaurants\\Index.cshtml.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowDYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T16:33:30.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Celicious\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml",
+              "ToolTip": "D:\\SU24\\PRN221\\Project_Celicious\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Index.cshtml",
+              "ViewState": "AQIAAKMAAAAAAAAAAADwv7MAAACNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-17T14:55:35.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_ProductList.cshtml",
+              "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Celicious\\Pages\\Shared\\_ProductList.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_ProductList.cshtml",
+              "ToolTip": "D:\\SU24\\PRN221\\Project_Celicious\\Pages\\Shared\\_ProductList.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_ProductList.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-17T17:06:17.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Celicious\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\SU24\\PRN221\\Project_Celicious\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAPcAAAAAAAAAAAAQwAQBAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-17T17:38:01.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Celicious\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml.cs",
+              "ToolTip": "D:\\SU24\\PRN221\\Project_Celicious\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "Pages\\Index.cshtml.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAlwDsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T14:55:52.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DishImage.cs",
+              "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Celicious\\Model\\DishImage.cs",
+              "RelativeDocumentMoniker": "Model\\DishImage.cs",
+              "ToolTip": "D:\\SU24\\PRN221\\Project_Celicious\\Model\\DishImage.cs",
+              "RelativeToolTip": "Model\\DishImage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T15:08:14.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Celicious\\Pages\\Dishes\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Dishes\\Edit.cshtml",
+              "ToolTip": "D:\\SU24\\PRN221\\Project_Celicious\\Pages\\Dishes\\Edit.cshtml",
+              "RelativeToolTip": "Pages\\Dishes\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-17T18:16:47.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ValidationScriptsPartial - Copy.cshtml",
+              "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Celicious\\Pages\\Shared\\_ValidationScriptsPartial - Copy.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_ValidationScriptsPartial - Copy.cshtml",
+              "ToolTip": "D:\\SU24\\PRN221\\Project_Celicious\\Pages\\Shared\\_ValidationScriptsPartial - Copy.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_ValidationScriptsPartial - Copy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-17T18:34:40.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Celicious\\Pages\\Restaurants\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Restaurants\\Edit.cshtml",
+              "ToolTip": "D:\\SU24\\PRN221\\Project_Celicious\\Pages\\Restaurants\\Edit.cshtml",
+              "RelativeToolTip": "Pages\\Restaurants\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-17T14:59:54.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Details.cshtml.cs",
+              "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Celicious\\Pages\\Restaurants\\Details.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Restaurants\\Details.cshtml.cs",
+              "ToolTip": "D:\\SU24\\PRN221\\Project_Celicious\\Pages\\Restaurants\\Details.cshtml.cs",
+              "RelativeToolTip": "Pages\\Restaurants\\Details.cshtml.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAWwBEAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T17:30:42.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Celicious\\Pages\\Restaurants\\Details.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Restaurants\\Details.cshtml",
+              "ToolTip": "D:\\SU24\\PRN221\\Project_Celicious\\Pages\\Restaurants\\Details.cshtml",
+              "RelativeToolTip": "Pages\\Restaurants\\Details.cshtml",
+              "ViewState": "AQIAAGMAAAAAAAAAAADwv3MAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-17T14:59:54.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Celicious\\Pages\\Error.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Error.cshtml",
+              "ToolTip": "D:\\SU24\\PRN221\\Project_Celicious\\Pages\\Error.cshtml",
+              "RelativeToolTip": "Pages\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-17T18:52:46.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RestaurantCategory.cs",
+              "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Celicious\\Model\\RestaurantCategory.cs",
+              "RelativeDocumentMoniker": "Model\\RestaurantCategory.cs",
+              "ToolTip": "D:\\SU24\\PRN221\\Project_Celicious\\Model\\RestaurantCategory.cs",
+              "RelativeToolTip": "Model\\RestaurantCategory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T18:34:38.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MyStyle.css",
+              "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Celicious\\wwwroot\\css\\MyStyle.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\MyStyle.css",
+              "ToolTip": "D:\\SU24\\PRN221\\Project_Celicious\\wwwroot\\css\\MyStyle.css",
+              "RelativeToolTip": "wwwroot\\css\\MyStyle.css",
+              "ViewState": "AQIAAO0GAAAAAAAAAADgvxoHAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-17T15:44:53.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Review.cs",
+              "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Celicious\\Model\\Review.cs",
+              "RelativeDocumentMoniker": "Model\\Review.cs",
+              "ToolTip": "D:\\SU24\\PRN221\\Project_Celicious\\Model\\Review.cs",
+              "RelativeToolTip": "Model\\Review.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T18:34:37.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RestaurantImage.cs",
+              "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Celicious\\Model\\RestaurantImage.cs",
+              "RelativeDocumentMoniker": "Model\\RestaurantImage.cs",
+              "ToolTip": "D:\\SU24\\PRN221\\Project_Celicious\\Model\\RestaurantImage.cs",
+              "RelativeToolTip": "Model\\RestaurantImage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T15:08:13.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "pagination.js",
+              "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Celicious\\wwwroot\\js\\pagination.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\pagination.js",
+              "ToolTip": "D:\\SU24\\PRN221\\Project_Celicious\\wwwroot\\js\\pagination.js",
+              "RelativeToolTip": "wwwroot\\js\\pagination.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-07-17T17:48:49.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Celicious\\Pages\\Dishes\\Details.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Dishes\\Details.cshtml",
+              "ToolTip": "D:\\SU24\\PRN221\\Project_Celicious\\Pages\\Dishes\\Details.cshtml",
+              "RelativeToolTip": "Pages\\Dishes\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-17T15:47:46.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Celicious\\Pages\\Dishes\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Dishes\\Index.cshtml",
+              "ToolTip": "D:\\SU24\\PRN221\\Project_Celicious\\Pages\\Dishes\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Dishes\\Index.cshtml",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAAAEQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-17T18:10:57.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Celicious\\Pages\\Dishes\\Create.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Dishes\\Create.cshtml",
+              "ToolTip": "D:\\SU24\\PRN221\\Project_Celicious\\Pages\\Dishes\\Create.cshtml",
+              "RelativeToolTip": "Pages\\Dishes\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-17T18:16:48.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "dashboard-tabs-reload.js",
+              "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Celicious\\wwwroot\\js\\dashboard-tabs-reload.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\dashboard-tabs-reload.js",
+              "ToolTip": "D:\\SU24\\PRN221\\Project_Celicious\\wwwroot\\js\\dashboard-tabs-reload.js",
+              "RelativeToolTip": "wwwroot\\js\\dashboard-tabs-reload.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-07-17T17:42:15.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Celicious\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Pages\\_ViewImports.cshtml",
+              "ToolTip": "D:\\SU24\\PRN221\\Project_Celicious\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "Pages\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-17T15:08:30.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Celicious\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Pages\\_ViewStart.cshtml",
+              "ToolTip": "D:\\SU24\\PRN221\\Project_Celicious\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "Pages\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-17T15:08:29.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Celicious\\Pages\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Privacy.cshtml",
+              "ToolTip": "D:\\SU24\\PRN221\\Project_Celicious\\Pages\\Privacy.cshtml",
+              "RelativeToolTip": "Pages\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-17T15:53:53.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Celicious\\Pages\\Restaurants\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Restaurants\\Delete.cshtml",
+              "ToolTip": "D:\\SU24\\PRN221\\Project_Celicious\\Pages\\Restaurants\\Delete.cshtml",
+              "RelativeToolTip": "Pages\\Restaurants\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-17T17:08:52.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Celicious\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\SU24\\PRN221\\Project_Celicious\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T15:53:48.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "DishCategory.cs",
+              "DocumentMoniker": "D:\\SU24\\PRN221\\Project_Celicious\\Model\\DishCategory.cs",
+              "RelativeDocumentMoniker": "Model\\DishCategory.cs",
+              "ToolTip": "D:\\SU24\\PRN221\\Project_Celicious\\Model\\DishCategory.cs",
+              "RelativeToolTip": "Model\\DishCategory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T15:08:16.671Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
